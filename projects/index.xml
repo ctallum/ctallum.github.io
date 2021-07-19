@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Chris Allum Portfolio</title>
-    <link>https://ctallum.github.io/projects/</link>
+    <link>https://chrisallum.com/projects/</link>
     <description>Recent content in Projects on Chris Allum Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://ctallum.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chrisallum.com/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Baja SAE</title>
-      <link>https://ctallum.github.io/projects/baja-sae/</link>
+      <link>https://chrisallum.com/projects/baja-sae/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ctallum.github.io/projects/baja-sae/</guid>
+      <guid>https://chrisallum.com/projects/baja-sae/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Game Development</title>
-      <link>https://ctallum.github.io/projects/game-development/</link>
+      <link>https://chrisallum.com/projects/game-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ctallum.github.io/projects/game-development/</guid>
+      <guid>https://chrisallum.com/projects/game-development/</guid>
       <description></description>
     </item>
     
