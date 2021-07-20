@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Dynamics Simulations</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Chris Allum online portfolio">
+  <meta name="author" content="Chris Allum">
+  <meta name="generator" content="Hugo 0.68.3" />
+
+  <style>
+    :root{
+      --primary-color:#222E50;
+    }
+  </style>
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://chrisallum.com/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://chrisallum.com/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://chrisallum.com/plugins/themify-icons/themify-icons.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://chrisallum.com/css/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://chrisallum.com/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://chrisallum.com/images/favicon.png " type="image/x-icon">
+
+  
+
+</head><body><header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="https://chrisallum.com/">
+      
+      <h3 class="text-white font-tertiary">Chris Allum Portfolio</h3>
+      
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://chrisallum.com/"> Home </a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="https://chrisallum.com/projects">Projects</a>
+        </li>
+        
+        
+
+        <ul class="list-unstyled ml-5 mt-3">
+          <li class="mb-3"><a class="text-white" href="https://github.com/ctallum"><i class="ti-github"></i></a></li>
+        </ul>
+        <ul class="list-unstyled ml-5 mt-3">
+          <li class="mb-3"><a class="text-white" href="https://www.linkedin.com/in/chris-allum/"><i class="ti-linkedin"></i></a></li>
+        </ul>
+        <ul class="list-unstyled ml-5 mt-3">
+          <li class="mb-3"><a class="text-white" href="mailto: ctallum@gmail.com"><i class="ti-email"></i></a></li>
+        </ul>
+
+
+      </ul>
+    </div>
+  </nav>
+</header>
+
+  
+<section class="page-title bg-primary position-relative overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="text-white font-tertiary">Dynamics Simulations</h1>
+      </div>
+    </div>
+  </div>
+  
+  
+</section>
+
+
+
+  <section class="section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-9 text-center mb-4">
+          
+          <p class="font-tertiary">May 2021
+          
+        
+        </div>
+        <div class="col-lg-9">
+          <div class="content">
+            <h1 id="dynamics-simulations">Dynamics-Simulations</h1>
+<p>This is a collection of problem sets and my simulated results from my Olin 2021 Dynamics Class.</p>
+<hr>
+<h2 id="problem-set-1">Problem Set 1</h2>
+<h3 id="1-golf-ball-simulation-air-resistance">1. Golf Ball Simulation (Air Resistance)</h3>
+<h4 id="setup">Setup</h4>
+<p>For this problem, a golf ball, with diameter D and mass m, is launched from point p with an initial velocity vector V<!-- raw HTML omitted -->0<!-- raw HTML omitted -->=v<!-- raw HTML omitted -->x<!-- raw HTML omitted -->0<!-- raw HTML omitted --><!-- raw HTML omitted -->i + v<!-- raw HTML omitted -->y<!-- raw HTML omitted -->0<!-- raw HTML omitted --><!-- raw HTML omitted -->j + v<!-- raw HTML omitted -->z<!-- raw HTML omitted -->0<!-- raw HTML omitted --><!-- raw HTML omitted -->k. The wind is blowing with air velocity V<!-- raw HTML omitted -->w<!-- raw HTML omitted -->=W<!-- raw HTML omitted -->x<!-- raw HTML omitted -->i+W<!-- raw HTML omitted -->y<!-- raw HTML omitted -->j+W<!-- raw HTML omitted -->z<!-- raw HTML omitted -->k resulting in a drag force, F<!-- raw HTML omitted -->D<!-- raw HTML omitted -->, acting on te ball. The drag force acts in the direction opposite its velocity and it proportional to the square of the velocity.</p>
+<p><img src="static/images/projects/Dynamics%20Simulations/setup/golf.png" alt="Golf Ball Problem Setup">
+<img src="portfolio/static/golf.png" alt="Golf Ball Problem Setup"></p>
+<h4 id="results">Results</h4>
+<p>For a golf ball with the following characteristics and initial conditions</p>
+<ul>
+<li>Mass: 0.0459 kg</li>
+<li>Diameter: 4.27 cm</li>
+<li>Initial velocity: 130 mph at 45 degrees with respect to ground</li>
+</ul>
+<p>and following drag properties</p>
+<ul>
+<li>Air density: 1.29 kg/m<!-- raw HTML omitted -->3<!-- raw HTML omitted --></li>
+<li>Drag coefficient: 0.25</li>
+</ul>
+<p><img src="/Images/results/Golf-results.png" alt="Golf Simulation Results"></p>
+<h3 id="2-two-mass-hopper-simulation">2. Two Mass Hopper Simulation</h3>
+<h4 id="setup-1">Setup</h4>
+<p>For this problem, two masses, m<!-- raw HTML omitted -->upper<!-- raw HTML omitted --> and m<!-- raw HTML omitted -->lower<!-- raw HTML omitted -->, are connected by a linear spring with an unstreched length, L<!-- raw HTML omitted -->0<!-- raw HTML omitted -->, and a spring constant, K. The upper mass is given an initial downward displacement and is then released, resulting in the hopper jumping.</p>
+<p><img src="/Images/setup/hopper.png" alt="Hopper Problem Setup"></p>
+<h4 id="results-1">Results</h4>
+<p>For a two mass hopper with the following characteristics and inital conditions</p>
+<ul>
+<li>Upper mass: 1.0 g</li>
+<li>Lower mass: 0.5 g</li>
+<li>Spring length: 2.0 cm</li>
+<li>Spring constant: 40 N/m</li>
+<li>Initial spring compression: 1.0 cm</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="/Images/results/Hopper-results1.png" alt="Hopper Simulation Results"></th>
+<th align="center"><img src="/Images/results/Hopper-results2.png" alt="Hopper Simulation Results"></th>
+</tr>
+</thead>
+</table>
+<hr>
+<h2 id="problem-set-2">Problem Set 2</h2>
+<h3 id="1-marble-in-a-bowl-simulation">1. Marble in a Bowl Simulation</h3>
+<h4 id="setup-2">Setup</h4>
+<p>For this problem, a small marble is released at the rim of a hemispherical bowl of radius R = 200 mm with an initial velocity of 100 mm/s in the circumferential direction. The marble slides on the inside surface of the bowl without friction. Gravity acts in the downward vertical direction.</p>
+<p><img src="/Images/setup/marble.png" alt="Marble Problem Setup"></p>
+<h4 id="results-2">Results</h4>
+<p><img src="/Images/results/Marble-results.png" alt="Marble Simulation Results"></p>
+<h3 id="2-rollercoaster-simulation">2. Rollercoaster Simulation</h3>
+<h4 id="setup-3">Setup</h4>
+<p>For this problem, a roller coaster cart is released along a roller coaster track.  the track is defined by the function, y=h(1-B*xL)cos<!-- raw HTML omitted -->2<!-- raw HTML omitted -->(3πx/(2L)) where 0&lt;B&lt;1 controls the height of the second peak of the track. One design constraint is that the cart must always travel over the second peak.
+The cart has air resistance. The magnitude of the force is F<!-- raw HTML omitted -->D<!-- raw HTML omitted -->=1/2ρC<!-- raw HTML omitted -->D<!-- raw HTML omitted -->V<!-- raw HTML omitted -->2<!-- raw HTML omitted --> where ρ is the air dentisty and C<!-- raw HTML omitted -->D<!-- raw HTML omitted --> is the drag coefficient, A is the frontal area of the car (which has mass, m), and V is the magnitude of the velocity of the car. The direction of the drag force is opposite to that of the car&rsquo;s velocity.</p>
+<p><img src="/Images/setup/rollercoaster.png" alt="Rollercoaster Problem Setup"></p>
+<h4 id="results-3">Results</h4>
+<p>For a rollercoaster with the following characteristics and initial conditions:</p>
+<ul>
+<li>Initial height of ride: 100 m</li>
+<li>Horizontal length of the ride: 500 m</li>
+<li>Mass of car: 500 kg</li>
+<li>Frontal area of car: 4.0 m<!-- raw HTML omitted -->2<!-- raw HTML omitted --></li>
+<li>Drag coefficient: 0.1</li>
+<li>Air density: 1.02 kg/m<!-- raw HTML omitted -->3<!-- raw HTML omitted --></li>
+</ul>
+<p><img src="/Images/results/Rollercoaster-results1.png" alt="Rollercoaster simulation results"></p>
+<p>B = 0.361 is the lower bound for how tall the second peak can be. For any value B lower than 0.361 results in a second peak that is too tall for the rollercoaster cart to go over.</p>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="/Images/results/Rollercoaster-results2.png" alt="Rollercoaster simulation results"></th>
+<th align="center"><img src="/Images/results/Rollercoaster-results3.png" alt="Rollercoaster simulation results"></th>
+</tr>
+</thead>
+</table>
+<hr>
+<h2 id="problem-set-3">Problem Set 3</h2>
+<h3 id="1-3d-spring-pendulum">1. 3D Spring Pendulum</h3>
+<h4 id="setup-4">Setup</h4>
+<p>For this problem, a mass, m, is suspended on a massless linear spring to form a spherical pendulum. The unstreched lentgh of the spring is L<!-- raw HTML omitted -->0<!-- raw HTML omitted -->. The spring can only chane lenth in the radial direction.</p>
+<p><img src="/Images/setup/spring-pendulum.png" alt="Spring Pendulum Problem Setup"></p>
+<h4 id="results-4">Results</h4>
+<p>For a spring pendulum with the following characteristics</p>
+<ul>
+<li>Mass: 0.1 kg</li>
+<li>Spring length: 20 cm</li>
+<li>Spring constant: 20 N/m</li>
+</ul>
+<p>and initial position and velocity</p>
+<ul>
+<li>Initial spring length: 20 cm</li>
+<li>Initial theta: 0 rad</li>
+<li>Initial phi: π/2 rad</li>
+<li>Initial velocity in radial direction: 0.1 rad/s</li>
+<li>Initial velocity in theta direction: 0 rad/s</li>
+<li>Initial velocity in phi direction: 0 rad/s</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="/Images/results/Spring-pendulum-results1.png" alt="Spring Pendulum Simulation Results"></th>
+<th align="center"><img src="/Images/results/Spring-pendulum-results2.png" alt="Spring Pendulum Simulation Results"></th>
+</tr>
+</thead>
+</table>
+<p>and with the following different initial position and velocity</p>
+<ul>
+<li>Initial spring length: 30 cm</li>
+<li>Initial theta: 0 rad</li>
+<li>Initial phi: π/2 rad</li>
+<li>Initial velocity in radial direction: 1 rad/s</li>
+<li>Initial velocity in theta direction: 1 rad/s</li>
+<li>Initial velocity in phi direction: 0 rad/s</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="/Images/results/Spring-pendulum-results3.png" alt="Spring Pendulum Simulation Results"></th>
+<th align="center"><img src="/Images/results/Spring-pendulum-results4.png" alt="Spring Pendulum Simulation Results"></th>
+</tr>
+</thead>
+</table>
+<h3 id="2-planar-pendulum">2. Planar Pendulum</h3>
+<h4 id="setup-5">Setup</h4>
+<p>For this problem, a plan pendulum which consists of mass, m, is suspended by a massless rod of lenth, l. Gravity acts in the downward vertical direction. The position of the mass can be described by the angle,θ, or by the cartesian coordinates (x,y).</p>
+<p><img src="/Images/setup/planar-pendulum.png" alt="Planar Pendulum Problem Setup"></p>
+<h4 id="results-5">Results</h4>
+<p>For a planar pendulum with the following characteristics and initial conditions</p>
+<ul>
+<li>Mass: 0.1 kg</li>
+<li>Length: 20 cm</li>
+<li>Initial theta: π/2</li>
+<li>Initial velocity in theta direction: 0 rad/s</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="/Images/results/Planar-pendulum-results1.png" alt="Planar Pendulum Simulation Results"></th>
+<th align="center"><img src="/Images/results/Planar-pendulum-results1.png" alt="Planar Pendulum Simulation Results"></th>
+</tr>
+</thead>
+</table>
+<p>These two simulations were calculated using different coordinate systems. The cartesian pendulum was calculated with equations of motion that were defined using a cartesion coordinate system, while the polar pendulum was calculated with equaitons of motion that were defined using a polar coordinate system. As expected, the two are identical. Both coordinate systems describe a pendulum accurately.</p>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="/Images/results/Planar-pendulum-results3.png" alt="Planar Pendulum Simulation Results"></th>
+<th align="center"><img src="/Images/results/Planar-pendulum-results4.png" alt="Planar Pendulum Simulation Results"></th>
+</tr>
+</thead>
+</table>
+<p>Adding viscious drag and aerodynamic drag to the pendulum result in the following. Viscous drag is proportional to the angular velocity of the pendulum while aerodynamic drag is proportional to the square of the angular velocity.</p>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="/Images/results/Planar-pendulum-results5.png" alt="Planar Pendulum Simulation Results"></th>
+<th align="center"><img src="/Images/results/Planar-pendulum-results6.png" alt="Planar Pendulum Simulation Results"></th>
+</tr>
+</thead>
+</table>
+<hr>
+<h2 id="problem-set-4">Problem Set 4</h2>
+<h3 id="double-pendulum">Double Pendulum</h3>
+<h4 id="seup">Seup</h4>
+<p>For this problem, a planar double pendulum consists of masses, m<!-- raw HTML omitted -->1<!-- raw HTML omitted --> and m<!-- raw HTML omitted -->2<!-- raw HTML omitted -->, suspended by massless rods of length l<!-- raw HTML omitted -->1<!-- raw HTML omitted --> and l<!-- raw HTML omitted -->2<!-- raw HTML omitted --> The position of the masses can be described by the angles, θ<!-- raw HTML omitted -->1<!-- raw HTML omitted --> and θ<!-- raw HTML omitted -->2<!-- raw HTML omitted -->, with respect to vertical. The pendulum is supported at point O with a frictionless pivot. Gravity acts in the downward vertical directions.</p>
+<p><img src="/Images/setup/double-pendulum.png" alt="Double Pendulum Problem Setup"></p>
+<h4 id="results-6">Results</h4>
+<p>For a double pendulum with the following characteristics and initial conditions</p>
+<ul>
+<li>Mass 1: 1.0 kg</li>
+<li>Length 1: 0.5 m</li>
+<li>Theta 1: π/2</li>
+<li>Mass 2: 1.0 kg</li>
+<li>Length 2: 0.5 m</li>
+<li>Theta 2: π/4</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="/Images/results/Double-pendulum-results1.png" alt="Double Pendulum Simulation Results"></th>
+<th align="center"><img src="/Images/results/Double-pendulum-results2.png" alt="Double Pendulum Simulation Results"></th>
+</tr>
+</thead>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="/Images/results/Double-pendulum-results3.png" alt="Double Pendulum Simulation Results"></th>
+<th align="center"><img src="/Images/results/Double-pendulum-results4.png" alt="Double Pendulum Simulation Results"></th>
+</tr>
+</thead>
+</table>
+<h2 id="final-project">Final Project</h2>
+<h3 id="double-pendulum-on-a-cart">Double Pendulum on a Cart</h3>
+<p>For this problem, a planar double pendulum consisting of masses, m<!-- raw HTML omitted -->2<!-- raw HTML omitted --> and m<!-- raw HTML omitted -->3<!-- raw HTML omitted -->, are suspended by massless rods of length l<!-- raw HTML omitted -->1<!-- raw HTML omitted --> and l<!-- raw HTML omitted -->2<!-- raw HTML omitted --> with a frictionless pivot upon a frictionless lateral cart with mass, m<!-- raw HTML omitted -->1<!-- raw HTML omitted -->. The position of the cart can be described by the distance x with respect to the origin, and the positions of the pendulums can be described by the angles, θ<!-- raw HTML omitted -->1<!-- raw HTML omitted --> and θ<!-- raw HTML omitted -->2<!-- raw HTML omitted -->, with respect to vertical. Gravity acts in the downward vertical directions. Furthermore, the cart and pendulum masses are subject to a drag force F<!-- raw HTML omitted -->D<!-- raw HTML omitted -->=C<!-- raw HTML omitted -->D<!-- raw HTML omitted -->V<!-- raw HTML omitted -->2<!-- raw HTML omitted --> where C<!-- raw HTML omitted -->D<!-- raw HTML omitted --> is the drag coefficient and the force is acting in the oposite direction of velocity.</p>
+<!-- raw HTML omitted -->
+<h3 id="results-7">Results</h3>
+<h4 id="drag-coeficient--0">Drag Coeficient = 0</h4>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="/Images/results/Cart-pendulum-results3.gif" alt="Cart Pendulum Simulation Results"></th>
+<th align="center"><img src="/Images/results/Cart-pendulum-results1.png" alt="Cart Pendulum Simulation Results"></th>
+<th align="center"><img src="/Images/results/Cart-pendulum-results2.png" alt="Cart Pendulum Simulation Results"></th>
+</tr>
+</thead>
+</table>
+<h4 id="drag-coeficient--005">Drag Coeficient = 0.05</h4>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="/Images/results/Cart-pendulum-results6.gif" alt="Cart Pendulum Simulation Results"></th>
+<th align="center"><img src="/Images/results/Cart-pendulum-results4.png" alt="Cart Pendulum Simulation Results"></th>
+<th align="center"><img src="/Images/results/Cart-pendulum-results5.png" alt="Cart Pendulum Simulation Results"></th>
+</tr>
+</thead>
+</table>
+<h4 id="drag-coeficient--05">Drag Coeficient = 0.5</h4>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="/Images/results/Cart-pendulum-results9.gif" alt="Cart Pendulum Simulation Results"></th>
+<th align="center"><img src="/Images/results/Cart-pendulum-results7.png" alt="Cart Pendulum Simulation Results"></th>
+<th align="center"><img src="/Images/results/Cart-pendulum-results8.png" alt="Cart Pendulum Simulation Results"></th>
+</tr>
+</thead>
+</table>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+<footer class="bg-dark footer-section">
+  
+  <div class="footer-bottom border-top text-center border-dark py-5">
+    <p class="mb-0 text-light">Copyright © 2021 Chris Allum</p>
+  </div>
+</footer>
+
+
+<!-- Google Map API -->
+
+
+<!-- JS Plugins -->
+
+<script src="https://chrisallum.com/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://chrisallum.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://chrisallum.com/plugins/slick/slick.min.js"></script>
+
+<script src="https://chrisallum.com/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="https://chrisallum.com/plugins/google-map/map.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://chrisallum.com/js/script.min.js"></script>
+
+
+
+</body>
+
+</html>
