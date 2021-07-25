@@ -104,133 +104,49 @@
         <div class="col-lg-9">
           <div class="content">
             <p>In this project, I created an algorithm that attempted to identify whether an image was a hot dog or not.</p>
-<script type="text/javascript" src="/js/pdf-js/build/pdf.js"></script>
-<style>
-#the-canvas {
-  border: 1px solid black;
-  direction: ltr;
-  width: 100%;
-  height: auto;
-}
-#paginator{
-    text-align: center;
-    margin-bottom: 10px;
-}
-</style>
+<p>To build this algorithm, I first assembled a training set of 89 images of hot dogs. I then removed the background noise in each photo and re-oriented the hot dog so that it lay horizontal across the center of a 72x128 frame. I then vectorized each photo into a 9216x1x3 matrix (one column vector for each set of RGB value. I then combined the vectorized images into a 9216x89x3 matrix.</p>
+<p>I then took this training set matrix and created a 9216x9216x3 covariance matrix. Using this covariance matrix, I was able to then calculate the eigenvectors for the training data set. This program uses the first 20 principal eigenvectors which represent 20 &ldquo;building blocks&rdquo; by which the training set data could be built.</p>
+<p>The images below show how I vectorized the training images and created a covarriance matrix out of them. For the sake of displaying the matrix, I am only showing the red sections out of the RGB matrix.</p>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="./img/photo%20matrix.PNG" alt="&ldquo;Image Vectorization&rdquo;"></th>
+<th align="center"><img src="./img/eigen%20matrix.PNG" alt="&ldquo;Eigenvector Array&rdquo;"></th>
+</tr>
+</thead>
+</table>
+<p>The images below show the first 5 primary eigenvectors.</p>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="./img/eigendog1.png" alt="&ldquo;Eigen Vector 1&rdquo;"></th>
+<th align="center"><img src="./img/eigendog2.png" alt="&ldquo;Eigen Vector 2&rdquo;"></th>
+<th align="center"><img src="./img/eigendog3.png" alt="&ldquo;Eigen Vector 3&rdquo;"></th>
+</tr>
+</thead>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="./img/eigendog4.png" alt="&ldquo;Eigen Vector 4&rdquo;"></th>
+<th align="center"><img src="./img/eigendog5.png" alt="&ldquo;Eigen Vector 5&rdquo;"></th>
+</tr>
+</thead>
+</table>
+<p>My algorithm&rsquo;s approach for classifying whether an object was a hot dog or not a hot dog was to take an image of an object and to project it onto the eigenvector space. It then found the correlation between this compressed image and the original image. Images of hot dogs are not changed by a significant margin when they were compressed by eigenvectors, while images of non-hot dogs are deformed by a significant amount.
+When the algorithm compares the correlation rate between these two images, if the correlation is above a certain threshold, the program considerers it to be a hot dog.</p>
+<p>The image below shows some of the algorithm&rsquo;s findings and demonstrates its viability.</p>
+<p><img src="./img/conclusion.PNG" alt="&ldquo;Results"></p>
 
-<div id="paginator">
-    <button id="prev">Previous</button>
-    <button id="next">Next</button>
-    &nbsp; &nbsp;
-    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
-</div>
-<div id="embed-pdf-container">
-    <canvas id="the-canvas"></canvas>
-</div>
-
-<script type="text/javascript">
-window.onload = function() {
-
-
-
-var url = "content\/projects\/Object Recognition: Hot Dog or Not\/img\/report.pdf";
-
-
-var pdfjsLib = window['pdfjs-dist/build/pdf'];
-
-
-pdfjsLib.GlobalWorkerOptions.workerSrc = '/js/pdf-js/build/pdf.worker.js';
-
-
-var pdfDoc = null,
-    pageNum = 1,
-    pageRendering = false,
-    pageNumPending = null,
-    scale = 3,
-    canvas = document.getElementById('the-canvas'),
-    ctx = canvas.getContext('2d');
-
-
-
-function renderPage(num) {
-  pageRendering = true;
-  
-  pdfDoc.getPage(num).then(function(page) {
-    var viewport = page.getViewport({scale: scale});
-    canvas.height = viewport.height;
-    canvas.width = viewport.width;
-
-    
-    var renderContext = {
-      canvasContext: ctx,
-      viewport: viewport
-    };
-    var renderTask = page.render(renderContext);
-
-    
-    renderTask.promise.then(function() {
-      pageRendering = false;
-      if (pageNumPending !== null) {
-        
-        renderPage(pageNumPending);
-        pageNumPending = null;
-      }
-    });
-  });
-
-  
-  document.getElementById('page_num').textContent = num;
-}
-
-
-
-function queueRenderPage(num) {
-  if (pageRendering) {
-    pageNumPending = num;
-  } else {
-    renderPage(num);
-  }
-}
-
-
-
-function onPrevPage() {
-  if (pageNum <= 1) {
-    return;
-  }
-  pageNum--;
-  queueRenderPage(pageNum);
-}
-document.getElementById('prev').addEventListener('click', onPrevPage);
-
-
-
-function onNextPage() {
-  if (pageNum >= pdfDoc.numPages) {
-    return;
-  }
-  pageNum++;
-  queueRenderPage(pageNum);
-}
-document.getElementById('next').addEventListener('click', onNextPage);
-
-
-
-pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-  pdfDoc = pdfDoc_;
-  document.getElementById('page_count').textContent = pdfDoc.numPages;
-
-  
-  renderPage(pageNum);
-});
-}
-
-</script>
-
+            
+            <h3> PDF Report </h3>
+            <iframe src=https://drive.google.com/file/d/1gG6pCWpDNPaFriDvA_YELosfVvA4JW9T/preview width=100% height=600px allow="autoplay"></iframe>
+            
           </div>
         </div>
       </div>
     </div>
+
   </section>
 
 
