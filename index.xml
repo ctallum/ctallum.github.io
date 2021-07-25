@@ -20,12 +20,21 @@
     </item>
     
     <item>
+      <title>Bio Inspired Hopper</title>
+      <link>https://chrisallum.com/projects/bio-inspired-hopper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/projects/bio-inspired-hopper/</guid>
+      <description>For this project, I designed a &amp;ldquo;hopper&amp;rdquo; using a set of limited materials.</description>
+    </item>
+    
+    <item>
       <title>Dynamics Simulations</title>
       <link>https://chrisallum.com/projects/dynamics-simulations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisallum.com/projects/dynamics-simulations/</guid>
-      <description>Dynamics-Simulations This is a collection of problem sets and my simulated results from my Olin 2021 Dynamics Class.</description>
+      <description>This is a collection of problem sets and my simulated results from my Olin 2021 Dynamics Class.</description>
     </item>
     
     <item>
@@ -34,7 +43,25 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisallum.com/projects/game-development/</guid>
-      <description></description>
+      <description>This is a two-player platformer game that I wrote in Python using Pygame.</description>
+    </item>
+    
+    <item>
+      <title>Neato Robot Gauntlet</title>
+      <link>https://chrisallum.com/projects/neato-robot-gauntlet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/projects/neato-robot-gauntlet/</guid>
+      <description>In this project, I programed a Neato vacuuming robot to traverse an obstacle course.</description>
+    </item>
+    
+    <item>
+      <title>Object Recognition: Hot Dog or Not</title>
+      <link>https://chrisallum.com/projects/object-recognition-hot-dog-or-not/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/projects/object-recognition-hot-dog-or-not/</guid>
+      <description>In this project, I created an algorithm that attempted to identify whether an image was a hot dog or not.</description>
     </item>
     
   </channel>
