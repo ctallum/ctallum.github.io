@@ -3,11 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://chrisallum.com/projects/baja-sae/</loc>
+  </url>
+  
+  <url>
+    <loc>https://chrisallum.com/projects/dynamics-simulations/</loc>
+  </url>
+  
+  <url>
+    <loc>https://chrisallum.com/projects/object-recognition-hot-dog-or-not/</loc>
+  </url>
+  
+  <url>
     <loc>https://chrisallum.com/projects/autonomous-rover/</loc>
   </url>
   
   <url>
-    <loc>https://chrisallum.com/projects/baja-sae/</loc>
+    <loc>https://chrisallum.com/projects/neato-robot-gauntlet/</loc>
+  </url>
+  
+  <url>
+    <loc>https://chrisallum.com/projects/rocky/</loc>
   </url>
   
   <url>
@@ -23,23 +39,11 @@
   </url>
   
   <url>
-    <loc>https://chrisallum.com/projects/dynamics-simulations/</loc>
-  </url>
-  
-  <url>
     <loc>https://chrisallum.com/projects/game-development/</loc>
   </url>
   
   <url>
     <loc>https://chrisallum.com/projects/high-school-robotics/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chrisallum.com/projects/neato-robot-gauntlet/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chrisallum.com/projects/object-recognition-hot-dog-or-not/</loc>
   </url>
   
   <url>
