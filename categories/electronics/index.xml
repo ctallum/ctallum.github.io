@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>electronics on Chris Allum Portfolio</title>
+    <link>https://chrisallum.com/categories/electronics/</link>
+    <description>Recent content in electronics on Chris Allum Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://chrisallum.com/categories/electronics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Projects</title>
+      <link>https://chrisallum.com/_categories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/_categories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autonomous Rover</title>
+      <link>https://chrisallum.com/autonomous-rover/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/autonomous-rover/</guid>
+      <description>Overview With a team of 5 other Olin students, I helped built a fully autonomous rover that was capable of driving around campus.</description>
+    </item>
+    
+    <item>
+      <title>High School Robotics</title>
+      <link>https://chrisallum.com/high-school-robotics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/high-school-robotics/</guid>
+      <description>I was the head of my HS robotics team during my Junior and Senior years.</description>
+    </item>
+    
+  </channel>
+</rss>

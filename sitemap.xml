@@ -3,31 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://chrisallum.com/projects/baja-sae/</loc>
+    <loc>https://chrisallum.com/_categories/</loc>
   </url>
   
   <url>
-    <loc>https://chrisallum.com/projects/dynamics-simulations/</loc>
+    <loc>https://chrisallum.com/baja-sae/</loc>
   </url>
   
   <url>
-    <loc>https://chrisallum.com/projects/object-recognition-hot-dog-or-not/</loc>
+    <loc>https://chrisallum.com/dynamic-simulations/</loc>
   </url>
   
   <url>
-    <loc>https://chrisallum.com/projects/autonomous-rover/</loc>
+    <loc>https://chrisallum.com/object-recognition/</loc>
   </url>
   
   <url>
-    <loc>https://chrisallum.com/projects/neato-robot-gauntlet/</loc>
+    <loc>https://chrisallum.com/autonomous-rover/</loc>
   </url>
   
   <url>
-    <loc>https://chrisallum.com/projects/rocky/</loc>
+    <loc>https://chrisallum.com/game-development/</loc>
   </url>
   
   <url>
-    <loc>https://chrisallum.com/projects/bio-inspired-hopper/</loc>
+    <loc>https://chrisallum.com/neato-robot-gauntlet/</loc>
+  </url>
+  
+  <url>
+    <loc>https://chrisallum.com/rocky/</loc>
+  </url>
+  
+  <url>
+    <loc>https://chrisallum.com/high-school-robotics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://chrisallum.com/bio-inspired-hopper/</loc>
   </url>
   
   <url>
@@ -39,15 +51,23 @@
   </url>
   
   <url>
-    <loc>https://chrisallum.com/projects/game-development/</loc>
+    <loc>https://chrisallum.com/categories/electronics/</loc>
   </url>
   
   <url>
-    <loc>https://chrisallum.com/projects/high-school-robotics/</loc>
+    <loc>https://chrisallum.com/honda/</loc>
   </url>
   
   <url>
-    <loc>https://chrisallum.com/projects/</loc>
+    <loc>https://chrisallum.com/categories/mechanical-design/</loc>
+  </url>
+  
+  <url>
+    <loc>https://chrisallum.com/categories/robotics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://chrisallum.com/categories/software/</loc>
   </url>
   
   <url>

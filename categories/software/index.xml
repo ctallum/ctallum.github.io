@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chris Allum Portfolio</title>
-    <link>https://chrisallum.com/</link>
-    <description>Recent content on Chris Allum Portfolio</description>
+    <title>software on Chris Allum Portfolio</title>
+    <link>https://chrisallum.com/categories/software/</link>
+    <description>Recent content in software on Chris Allum Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://chrisallum.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chrisallum.com/categories/software/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,15 +17,6 @@
       
       <guid>https://chrisallum.com/_categories/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Baja SAE</title>
-      <link>https://chrisallum.com/baja-sae/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisallum.com/baja-sae/</guid>
-      <description>Overview I have been a member of Olin&amp;rsquo;s Baja SAE team since my freshman year.</description>
     </item>
     
     <item>
@@ -80,33 +71,6 @@
       
       <guid>https://chrisallum.com/rocky/</guid>
       <description>In this project, I helped design and implement a control system that maintains the balance of a wheeled inverted pendulum and corrects for angular disturbance.</description>
-    </item>
-    
-    <item>
-      <title>High School Robotics</title>
-      <link>https://chrisallum.com/high-school-robotics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisallum.com/high-school-robotics/</guid>
-      <description>I was the head of my HS robotics team during my Junior and Senior years.</description>
-    </item>
-    
-    <item>
-      <title>Bio Inspired Hopper</title>
-      <link>https://chrisallum.com/bio-inspired-hopper/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisallum.com/bio-inspired-hopper/</guid>
-      <description>For this project, I designed a &amp;ldquo;hopper&amp;rdquo; using a set of limited materials.</description>
-    </item>
-    
-    <item>
-      <title>Honda Robotics Internship</title>
-      <link>https://chrisallum.com/honda/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisallum.com/honda/</guid>
-      <description>I worked as a robotics intern at Honda Development and Manufacturing of America, specifically at the Alabama Automotive Plant.</description>
     </item>
     
   </channel>
