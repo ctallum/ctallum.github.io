@@ -3,7 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://chrisallum.com/autonomous-rover/</loc>
+  </url>
+  
+  <url>
     <loc>https://chrisallum.com/_categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://chrisallum.com/rock-paper-scissors/</loc>
+  </url>
+  
+  <url>
+    <loc>https://chrisallum.com/rocky/</loc>
   </url>
   
   <url>
@@ -19,19 +31,11 @@
   </url>
   
   <url>
-    <loc>https://chrisallum.com/autonomous-rover/</loc>
-  </url>
-  
-  <url>
     <loc>https://chrisallum.com/game-development/</loc>
   </url>
   
   <url>
     <loc>https://chrisallum.com/neato-robot-gauntlet/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chrisallum.com/rocky/</loc>
   </url>
   
   <url>

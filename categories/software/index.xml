@@ -11,12 +11,39 @@
     
     
     <item>
+      <title>Fully Autonomous Rover</title>
+      <link>https://chrisallum.com/autonomous-rover/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/autonomous-rover/</guid>
+      <description>Overview With a team of 5 other Olin students, I helped built a fully autonomous rover that was capable of driving around campus.</description>
+    </item>
+    
+    <item>
       <title>Projects</title>
       <link>https://chrisallum.com/_categories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisallum.com/_categories/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Rock Paper Scissors CNN Machine Learning Model</title>
+      <link>https://chrisallum.com/rock-paper-scissors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/rock-paper-scissors/</guid>
+      <description>In this project, I built a CNN machine learning model to identify hand poses in a game of rock paper scissors using PyTorch.</description>
+    </item>
+    
+    <item>
+      <title>Rocky: Stabilization of an Wheeled Inverted Pendulum </title>
+      <link>https://chrisallum.com/rocky/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/rocky/</guid>
+      <description>In this project, I helped design and implement a control system that maintains the balance of a wheeled inverted pendulum and corrects for angular disturbance.</description>
     </item>
     
     <item>
@@ -38,15 +65,6 @@
     </item>
     
     <item>
-      <title>Autonomous Rover</title>
-      <link>https://chrisallum.com/autonomous-rover/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisallum.com/autonomous-rover/</guid>
-      <description>Overview With a team of 5 other Olin students, I helped built a fully autonomous rover that was capable of driving around campus.</description>
-    </item>
-    
-    <item>
       <title>Python Platformer Game</title>
       <link>https://chrisallum.com/game-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -62,15 +80,6 @@
       
       <guid>https://chrisallum.com/neato-robot-gauntlet/</guid>
       <description>In this project, I programed a Neato vacuuming robot to traverse an obstacle course.</description>
-    </item>
-    
-    <item>
-      <title>Rocky: Stabilization of an Wheeled Inverted Pendulum </title>
-      <link>https://chrisallum.com/rocky/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisallum.com/rocky/</guid>
-      <description>In this project, I helped design and implement a control system that maintains the balance of a wheeled inverted pendulum and corrects for angular disturbance.</description>
     </item>
     
   </channel>
