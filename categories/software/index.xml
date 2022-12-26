@@ -11,75 +11,12 @@
     
     
     <item>
-      <title>Fully Autonomous Rover</title>
-      <link>https://chrisallum.com/autonomous-rover/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisallum.com/autonomous-rover/</guid>
-      <description>Overview With a team of 5 other Olin students, I helped built a fully autonomous rover that was capable of driving around campus.</description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://chrisallum.com/_categories/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisallum.com/_categories/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rock Paper Scissors CNN Machine Learning Model</title>
-      <link>https://chrisallum.com/rock-paper-scissors/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisallum.com/rock-paper-scissors/</guid>
-      <description>In this project, I built a CNN machine learning model to identify hand poses in a game of rock paper scissors using PyTorch.</description>
-    </item>
-    
-    <item>
-      <title>Rocky: Stabilization of an Wheeled Inverted Pendulum </title>
-      <link>https://chrisallum.com/rocky/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisallum.com/rocky/</guid>
-      <description>In this project, I helped design and implement a control system that maintains the balance of a wheeled inverted pendulum and corrects for angular disturbance.</description>
-    </item>
-    
-    <item>
       <title>Dynamics Simulations</title>
-      <link>https://chrisallum.com/dynamic-simulations/</link>
+      <link>https://chrisallum.com/portfolio/dynamic-simulations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chrisallum.com/dynamic-simulations/</guid>
-      <description>This is a collection of problem sets and my simulated results from my Olin 2021 Dynamics Class.</description>
-    </item>
-    
-    <item>
-      <title>Object Recognition: Hot Dog or Not</title>
-      <link>https://chrisallum.com/object-recognition/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisallum.com/object-recognition/</guid>
-      <description>In this project, I created an algorithm that attempted to identify whether an image was a hot dog or not.</description>
-    </item>
-    
-    <item>
-      <title>Python Platformer Game</title>
-      <link>https://chrisallum.com/game-development/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisallum.com/game-development/</guid>
-      <description>This is a two-player platformer game that I wrote in Python using Pygame.</description>
-    </item>
-    
-    <item>
-      <title>Robotic Path Planning</title>
-      <link>https://chrisallum.com/neato-robot-gauntlet/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisallum.com/neato-robot-gauntlet/</guid>
-      <description>In this project, I programed a Neato vacuuming robot to traverse an obstacle course.</description>
+      <guid>https://chrisallum.com/portfolio/dynamic-simulations/</guid>
+      <description></description>
     </item>
     
   </channel>
