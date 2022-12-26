@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chris Allum Portfolio</title>
+    <link>https://chrisallum.com/</link>
+    <description>Recent content on Chris Allum Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Nov 2016 21:05:33 +0530</lastBuildDate>
+    
+	<atom:link href="https://chrisallum.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fully Autonomous Rover</title>
+      <link>https://chrisallum.com/portfolio/autonomous-rover/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/portfolio/autonomous-rover/</guid>
+      <description>Overview With a team of 5 other Olin students, I helped built a fully autonomous rover that was capable of driving around campus. The Rover was capable of driving from point to point while preforming obsticle avoidance. The Rover also had a manipulator on the front that was capable of picking up and dropping items.
+The rover navigated using a series of sensors. On the rover were two sonar sensors, five infrared distance sensors, a GPS module, and webcam capable of object recognition.</description>
+    </item>
+    
+    <item>
+      <title>Rock Paper Scissors Machine Learning</title>
+      <link>https://chrisallum.com/portfolio/rock-paper-scissors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/portfolio/rock-paper-scissors/</guid>
+      <description>In this project, I built a CNN machine learning model to identify hand poses in a game of rock paper scissors using PyTorch.
+ Final Report  </description>
+    </item>
+    
+    <item>
+      <title>Rocky: Stabilization of an Wheeled Inverted Pendulum </title>
+      <link>https://chrisallum.com/portfolio/rocky/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/portfolio/rocky/</guid>
+      <description>In this project, I helped design and implement a control system that maintains the balance of a wheeled inverted pendulum and corrects for angular disturbance.
+For this project, we used a Pololu Balboa 32U4 robot kit as the robotic base with a set of 0.6 m long laser-cut MDF side extension to raise the center of mass and create the inverted pendulum. At the top of the robot are a set of weights, adding up to around 200g.</description>
+    </item>
+    
+    <item>
+      <title>Baja SAE</title>
+      <link>https://chrisallum.com/portfolio/baja-sae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/portfolio/baja-sae/</guid>
+      <description>Overview I have been a member of Olin&amp;rsquo;s Baja SAE team since my freshman year. The team meets biweekly, during which we work on designing the year&amp;rsquo;s Baja vehicle in preparation for end of year competitions. During our own free time, we work on machining needed parts. I am on the suspension subteam which is responsible for the front and rear suspensions, front brakes, and steering. Through Olin&amp;rsquo;s Baja team, I have improved by CAD skills, learned how to preform FEA, and picked up many machining skills.</description>
+    </item>
+    
+    <item>
+      <title>Dynamics Simulations</title>
+      <link>https://chrisallum.com/portfolio/dynamic-simulations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/portfolio/dynamic-simulations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Object Recognition: Hot Dog or Not</title>
+      <link>https://chrisallum.com/portfolio/object-recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/portfolio/object-recognition/</guid>
+      <description>In this project, I created an algorithm that attempted to identify whether an image was a hot dog or not.
+To build this algorithm, I first assembled a training set of 89 images of hot dogs. I then removed the background noise in each photo and re-oriented the hot dog so that it lay horizontal across the center of a 72x128 frame. I then vectorized each photo into a 9216x1x3 matrix (one column vector for each set of RGB value.</description>
+    </item>
+    
+    <item>
+      <title>Python Platformer Game</title>
+      <link>https://chrisallum.com/portfolio/game-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/portfolio/game-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robotic Path Planning</title>
+      <link>https://chrisallum.com/portfolio/neato-robot-gauntlet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/portfolio/neato-robot-gauntlet/</guid>
+      <description>In this project, I programed a Neato vacuuming robot to traverse an obstacle course. The Neato was placed in an arena with several boxes that served as obstacles. The goal was for the Neato to autonomously scan the environment using it&amp;rsquo;s LIDAR sensor, plan a course (avoiding the obstacles), and make its way to the goal object, a round barrel.
+        On the left is the robot that I programed.</description>
+    </item>
+    
+    <item>
+      <title>High School Robotics</title>
+      <link>https://chrisallum.com/portfolio/high-school-robotics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/portfolio/high-school-robotics/</guid>
+      <description>I was the head of my HS robotics team during my Junior and Senior years. We competed in the MATE ROV competition were we had to build an underwater remotely operated vehicle (ROV) to preform a series of tasks. Here are a few images of the robots I helped build and design.
+Our Rover         These was our final robot. The internals of the robot contained six motor controllers, an Arduino, and a Raspberry Pi.</description>
+    </item>
+    
+    <item>
+      <title>Bio Inspired Hopper</title>
+      <link>https://chrisallum.com/portfolio/bio-inspired-hopper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/portfolio/bio-inspired-hopper/</guid>
+      <description>For this project, I designed a &amp;ldquo;hopper&amp;rdquo; using a set of limited materials. The aim of this project was to learn more about design process, using CAD, and prototyping.
+This was the first drawing of my hopper. I really wanted to incorporate a four-bar linkage as the primary jumping mechanism. I was also inspired by a how a grasshopper shoots it&amp;rsquo;s leg out to jump. These sources of inspiration are what lead me to this design.</description>
+    </item>
+    
+    <item>
+      <title>Honda Robotics Internship</title>
+      <link>https://chrisallum.com/portfolio/honda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/portfolio/honda/</guid>
+      <description>I worked as a robotics intern at Honda Development and Manufacturing of America, specifically at the Alabama Automotive Plant. While at Honda, I worked within the Weld 1 department where Honda vehicles are assembled and welded using several hundred Fanuc robots.
+During my internship, I had the oportunity to see how robotic systems are used within the industrial and automotive industry. A few of the projects I worked on during my internship are the following:</description>
+    </item>
+    
+  </channel>
+</rss>
