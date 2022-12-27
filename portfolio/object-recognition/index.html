@@ -98,6 +98,7 @@
     <div class="col-lg-12">
       <div class="content-column-content">
          <h1>Object Recognition: Hot Dog or Not</h1>
+         <h3>Dec 2020</h3>
          <p>In this project, I created an algorithm that attempted to identify whether an image was a hot dog or not.</p>
 <p>To build this algorithm, I first assembled a training set of 89 images of hot dogs. I then removed the background noise in each photo and re-oriented the hot dog so that it lay horizontal across the center of a 72x128 frame. I then vectorized each photo into a 9216x1x3 matrix (one column vector for each set of RGB value. I then combined the vectorized images into a 9216x89x3 matrix.</p>
 <p>I then took this training set matrix and created a 9216x9216x3 covariance matrix. Using this covariance matrix, I was able to then calculate the eigenvectors for the training data set. This program uses the first 20 principal eigenvectors which represent 20 &ldquo;building blocks&rdquo; by which the training set data could be built.</p>
