@@ -95,10 +95,36 @@
 </div>
 
   <div class="row">
-    <div class="col-lg-8">
+    <div class="col-lg-12">
       <div class="content-column-content">
-        <h1>Page not found</h1>
-        <p><a href="https://chrisallum.com/">Return to the home page</a>.</p>
+         <h1>Robotic Path Planning</h1>
+         <h3>May 2020</h3>
+         <p>In this project, I programed a Neato vacuuming robot to traverse an obstacle course. The Neato was placed in an arena with several boxes that served as obstacles. The goal was for the Neato to autonomously scan the environment using it&rsquo;s LIDAR sensor, plan a course (avoiding the obstacles), and make its way to the goal object, a round barrel.</p>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="/img/projects/Neato%20Robot%20Gauntlet/neato.png" alt="&ldquo;Neato Robot&rdquo;"></th>
+<th align="center"><img src="/img/projects/Neato%20Robot%20Gauntlet/course.png" alt="&ldquo;Robot Course&rdquo;"></th>
+</tr>
+</thead>
+</table>
+<p>On the left is the robot that I programed. It is a repurposed Neato vacuum robot. On the right is an image of the course the robot was placed in.</p>
+<p><img src="/img/projects/Neato%20Robot%20Gauntlet/planned%20path.png" alt="&ldquo;Planned Path&rdquo;"></p>
+<p>The robot is first placed at the coordinate location (0,0). It then uses it&rsquo;s LIDAR sensor to scan its surroundings. In the image above, the black dots represent the objects the LIDAR sensor detected. Using these data, the robot then autonomously creates a path towards the goal object and drives along it. In the image above, the red path shows the robot&rsquo;s final path from its origin to its target, a round barrel.</p>
+<p><img src="/img/projects/Neato%20Robot%20Gauntlet/ransac.png" alt="&ldquo;RANSAC Path&rdquo;"></p>
+<p>Before creating the path, the robot first uses a RANSAC algorithm to transform the initial LIDAR data into a set of lines and a full circle for the barrel. The lines represent objects that the robot should avoid, and the circle is the object that the robot should drive towards.</p>
+<p><img src="/img/projects/Neato%20Robot%20Gauntlet/potential%20field.png" alt="&ldquo;Potential Field&rdquo;"></p>
+<p>In order to plan the path, the robot then constructs a potential field of the map. The highest peak in the field represents is the barrel that the robot is trying to reach. All the divots in the potential field represent objects that the robot is trying to avoid. To create a viable path, the robot preforms a gradient ascent. The process of gradient ascent is for the robot to always travel in the direction of gradient. By following the gradient of the potential field, the robot will travel from the origin to the local maximum while avoiding all of the divots. This results in a path that avoids the real world obstacles and heads toward the target barrel.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/BVUQobEe3YE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>This is a video of a simulation of a successful run. The robot first scans the environment, plans a course, and finally drives along the path until it reaches the target.</p>
+<hr>
+<h2 id="final-report">Final Report</h2>
+<iframe src="https://drive.google.com/file/d/19vQha0wfSvICGLAlWt9pjXEmwwAYdduM/preview" width="100%" height="600" allow="autoplay"></iframe>
+         
       </div>
     </div>
   </div>
