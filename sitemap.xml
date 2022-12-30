@@ -3,15 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://chrisallum.com/portfolio/b-tree/</loc>
-  </url>
-  
-  <url>
     <loc>https://chrisallum.com/portfolio/flybox/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chrisallum.com/portfolio/autonomous-rover/</loc>
   </url>
   
   <url>
@@ -19,11 +11,11 @@
   </url>
   
   <url>
-    <loc>https://chrisallum.com/portfolio/rock-paper-scissors/</loc>
+    <loc>https://chrisallum.com/portfolio/honda/</loc>
   </url>
   
   <url>
-    <loc>https://chrisallum.com/portfolio/rocky/</loc>
+    <loc>https://chrisallum.com/portfolio/b-tree/</loc>
   </url>
   
   <url>
@@ -35,6 +27,26 @@
   </url>
   
   <url>
+    <loc>https://chrisallum.com/portfolio/neato-robot-gauntlet/</loc>
+  </url>
+  
+  <url>
+    <loc>https://chrisallum.com/portfolio/rock-paper-scissors/</loc>
+  </url>
+  
+  <url>
+    <loc>https://chrisallum.com/portfolio/rocky/</loc>
+  </url>
+  
+  <url>
+    <loc>https://chrisallum.com/portfolio/autonomous-rover/</loc>
+  </url>
+  
+  <url>
+    <loc>https://chrisallum.com/portfolio/high-school-robotics/</loc>
+  </url>
+  
+  <url>
     <loc>https://chrisallum.com/portfolio/object-recognition/</loc>
   </url>
   
@@ -43,11 +55,7 @@
   </url>
   
   <url>
-    <loc>https://chrisallum.com/portfolio/neato-robot-gauntlet/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chrisallum.com/portfolio/high-school-robotics/</loc>
+    <loc>https://chrisallum.com/portfolio/bio-inspired-hopper/</loc>
   </url>
   
   <url>
@@ -61,23 +69,11 @@
   </url>
   
   <url>
-    <loc>https://chrisallum.com/portfolio/bio-inspired-hopper/</loc>
-  </url>
-  
-  <url>
     <loc>https://chrisallum.com/categories/</loc>
   </url>
   
   <url>
-    <loc>https://chrisallum.com/portfolio/honda/</loc>
-  </url>
-  
-  <url>
     <loc>https://chrisallum.com/portfolio/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chrisallum.com/categories/software/</loc>
   </url>
   
   <url>
