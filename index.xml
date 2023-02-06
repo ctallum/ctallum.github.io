@@ -12,22 +12,22 @@
     
     
     <item>
-      <title>Brandeis University Senior Capstone Project</title>
-      <link>https://chrisallum.com/flybox/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisallum.com/flybox/</guid>
-      <description>About For my senior capstone project, I am working on a team of Olin students in collaboration with Brandeis University to redesign a piece of labratory hardware called the FlyBox. The FlyBox is designed to monitor and track the behavior of fruit flies over multiday periods for circadian rhythm research. The device was created to replaced existing methods of fruit fly behavior observation, offering more detailed and accurate data at a lower cost.</description>
-    </item>
-    
-    <item>
       <title>Markforged Software Intern</title>
       <link>https://chrisallum.com/markforged/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisallum.com/markforged/</guid>
-      <description>I can&amp;rsquo;t really say too much about what I did at Markforged as a Software Intern due to me signining a non-disclosure agreement, but here is what I can say:
+      <description>I can&amp;rsquo;t really say too much about what I did at Markforged as a Software Intern due to me signing a non-disclosure agreement, but here is what I can say:
  I had the oportunity to work on the middleware that exists on the new FX20 printers I worked on some internal benchmarking tools I helped work on a new piece of software that reduces print processing time by around 7x I wrote some logging tools print file processing I worked primarily in Typescript and a tiny bit with Rust  To give you an idea of the stuff I was working on, here is a photo of the FX20 printer that I was working with.</description>
+    </item>
+    
+    <item>
+      <title>Olin College Senior Capstone working with Brandeis University</title>
+      <link>https://chrisallum.com/flybox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/flybox/</guid>
+      <description>About For my senior capstone project, I am working on a team of Olin students in collaboration with Brandeis University to redesign a piece of labratory hardware called the FlyBox. The FlyBox is designed to monitor and track the behavior of fruit flies over multiday periods for circadian rhythm research. The device was created to replaced existing methods of fruit fly behavior observation, offering more detailed and accurate data at a lower cost.</description>
     </item>
     
     <item>
