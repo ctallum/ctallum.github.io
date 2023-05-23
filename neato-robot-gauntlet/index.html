@@ -40,7 +40,11 @@
     <img src="/img/cover_photo.jpg" alt="Portfolio Image" style="padding-bottom: 15px;" width="100%">
 
     
-      <p class="sidebar-p">I am a Robotics Engineer from Olin College of Engineering. I'm passionate about robotics, renewable energy, and all green tech! Check out a few of my projects</p>
+      <p class="sidebar-p">I am a Robotics Engineer from Olin College of Engineering. I'm passionate about robotics, renewable energy, and all green tech! Check out a few of my projects!</p>
+    
+      <p class="sidebar-p">Olin College | 2019-2023 | B.S. Engineering with Concentration in Robotics</p>
+    
+      <p class="sidebar-p">Boston University | 2023-present | M.S. Robotics and Autonomous Systems</p>
     
     <ul class="sidebar-menu">
       
@@ -76,7 +80,7 @@
 </p>
 
 
-    <p class="sidebar-p"> Last Updated: Feb 8, 2023 </p>
+    <p class="sidebar-p"> Last Updated: May 22, 2023 </p>
     
   </div>
 </div>
@@ -97,17 +101,17 @@
 <table>
 <thead>
 <tr>
-<th align="center"><img src="/img/projects/Neato%20Robot%20Gauntlet/neato.png" alt="&ldquo;Neato Robot&rdquo;"></th>
-<th align="center"><img src="/img/projects/Neato%20Robot%20Gauntlet/course.png" alt="&ldquo;Robot Course&rdquo;"></th>
+<th align="center"><img src="neato.png" alt="&ldquo;Neato Robot&rdquo;"></th>
+<th align="center"><img src="course.png" alt="&ldquo;Robot Course&rdquo;"></th>
 </tr>
 </thead>
 </table>
 <p>On the left is the robot that I programed. It is a repurposed Neato vacuum robot. On the right is an image of the course the robot was placed in.</p>
-<p><img src="/img/projects/Neato%20Robot%20Gauntlet/planned%20path.png" alt="&ldquo;Planned Path&rdquo;"></p>
+<p><img src="planned%20path.png" alt="&ldquo;Planned Path&rdquo;"></p>
 <p>The robot is first placed at the coordinate location (0,0). It then uses it&rsquo;s LIDAR sensor to scan its surroundings. In the image above, the black dots represent the objects the LIDAR sensor detected. Using these data, the robot then autonomously creates a path towards the goal object and drives along it. In the image above, the red path shows the robot&rsquo;s final path from its origin to its target, a round barrel.</p>
-<p><img src="/img/projects/Neato%20Robot%20Gauntlet/ransac.png" alt="&ldquo;RANSAC Path&rdquo;"></p>
+<p><img src="ransac.png" alt="&ldquo;RANSAC Path&rdquo;"></p>
 <p>Before creating the path, the robot first uses a RANSAC algorithm to transform the initial LIDAR data into a set of lines and a full circle for the barrel. The lines represent objects that the robot should avoid, and the circle is the object that the robot should drive towards.</p>
-<p><img src="/img/projects/Neato%20Robot%20Gauntlet/potential%20field.png" alt="&ldquo;Potential Field&rdquo;"></p>
+<p><img src="potential%20field.png" alt="&ldquo;Potential Field&rdquo;"></p>
 <p>In order to plan the path, the robot then constructs a potential field of the map. The highest peak in the field represents is the barrel that the robot is trying to reach. All the divots in the potential field represent objects that the robot is trying to avoid. To create a viable path, the robot preforms a gradient ascent. The process of gradient ascent is for the robot to always travel in the direction of gradient. By following the gradient of the potential field, the robot will travel from the origin to the local maximum while avoiding all of the divots. This results in a path that avoids the real world obstacles and heads toward the target barrel.</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
