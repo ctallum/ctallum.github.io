@@ -37,10 +37,10 @@
   <div class="sidebar-content">
     <h1 class="sidebar-heading"><a href="https://chrisallum.com/">Chris Allum Portfolio</a></h1>
 
-    <img src="/img/cover_photo.jpg" alt="Portfolio Image" style="padding-bottom: 15px;" width="100%">
+    <img src="profile_photo.jpg" alt="Portfolio Image" style="padding-bottom: 15px;" width="100%">
 
     
-      <p class="sidebar-p">I am a Robotics Engineer from Olin College of Engineering. I'm passionate about robotics, renewable energy, and all green tech! Check out a few of my projects!</p>
+      <p class="sidebar-p">Hi, I'm a Graduate student at Boston University working towards my M.S. in Robotics and Autonomous Systems. I graduated from Olin College of Engineering with a B.S. in Engineering with a concentration in Robotics. I'm passionate about robotic path planning, autonomous systems, mechanics, renewable energy, and all things green tech! Check out a few of my projects!</p>
     
       <p class="sidebar-p">Olin College | 2019-2023 | B.S. Engineering with Concentration in Robotics</p>
     
@@ -80,7 +80,7 @@
 </p>
 
 
-    <p class="sidebar-p"> Last Updated: May 23, 2023 </p>
+    <p class="sidebar-p"> Last Updated: Sep 15, 2023 </p>
     
   </div>
 </div>
@@ -99,11 +99,12 @@
          <h3>Sept 2022 - May 2023</h3>
          
 
- 
+<img src="/scope/FlyBox.JPG" width="600x" >
 
-<img src="/scope/FlyBox1_hub9885b88ed8cd7ab0ac945487e3b2b03_1362801_600x0_resize_q75_box.JPG" alt="Photo of the FlyBox" />
+
+
 <h3 id="about">About</h3>
-<p>For my senior capstone project, I worked on a team of Olin students in collaboration with Brandeis University to redesign a piece of labratory equipment called the FlyBox. The FlyBox was designed by Brandeis to monitor and track the behavior of fruit flies over multiday periods for circadian rhythm research. Using specific lights in the FlyBox, researchers were able to use optogenetics to control individual neurons in the flies&rsquo; brains and see how their sleep patterns changed. The device was created to replaced existing methods of fruit fly behavior observation, offering more detailed and accurate data at a lower cost. Already, the FlyBox has been used to generate data for Nobel Prize-winning research on the circadian rhythm. However, the current version of the FlyBox was just a prototype. It lacked the durability and polish needed for long term use. Furthermore, Brandeis wished for the FlyBox to be created from a simple open source kit, able to be assembled by anybody. In a kit form, the FlyBox could be shared and used by partner institutions around the world. The goal of project was to redesign the FlyBox from a functional prototype into a polished product that was more robust, able to be assembled from a kit, and be user friendly.</p>
+<p>For my senior capstone project, I worked with a team with Olin students in collaboration with Brandeis University to redesign a piece of laboratory equipment called the FlyBox. The FlyBox was designed by Brandeis to monitor and track the behavior of fruit flies over multi-day periods for circadian rhythm research. Using specific lights in the FlyBox, researchers were able to use optogenetics to control individual neurons in the flies' brains and see how their sleep patterns changed. The device was created to replaced existing methods of fruit fly behavior observation, offering more detailed and accurate data at a lower cost. The FlyBox has already been used to generate data for Nobel Prize-winning research on the circadian rhythm. However, the current version of the FlyBox was just a prototype. It lacked the durability and polish needed for long term use. Furthermore, Brandeis wished for the FlyBox to be created from a simple open source kit, able to be assembled by anybody. In a kit form, the FlyBox could be shared and used by partner institutions around the world. The goal of project was to redesign the FlyBox from a functional prototype into a polished product that was more robust, able to be assembled from a kit, and be user friendly.</p>
 <h3 id="scope-summit-presentation">Scope Summit Presentation</h3>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -111,9 +112,9 @@
 </div>
 
 <h3 id="work-on-the-project">Work on the Project</h3>
-<p>For this project, I worked extensively on the firmware for the FlyBox. Our goal was to radically change how users design and run tests using the FlyBox. Previously, users manually edited an Arduino script to control how and when different lights turn on and off. Our goal for this project was to create a software workflow where users could program the box using a visual web-based user interface, download a testing profile in the form of a &ldquo;.txt&rdquo; file and uplaod the test file to the box. The test files can be loaded onto an SD card, and from the box, the user can visually select which testing profile they want to run. We were inspired by the software workflow for most consumer 3D printers.</p>
-<p>The fist step in creating this funcitnality was deciding how we should encode the data such that the web UI could generate a file that the FlyBox could iterpert. We decided to encode the data in a JSON array since JSON has well established text parsing capabilities for microcontrollers. I then wrote firmware so that the FlyBox could read from an SD card and so that the user could slect files. I then wrote a method to deserialize the JSON text on the SD card and store the data in a custom data structure. The FlyBox then uses these data to run tests over the course of serveral days.</p>
-<p>The code for this project can be found in the GitHub link below. Currently, I have been working in the Firmware seciton of the repo.</p>
+<p>For this project, I worked extensively on the firmware for the FlyBox. Our team&rsquo;s goal was to radically change how users design and run tests using the FlyBox. Previously, users manually edited an Arduino script to control how and when different lights turn on and off. We wanted to create a software workflow where users could program the box using a visual web-based user interface, download a testing profile in the form of a &ldquo;.txt&rdquo; file and upload the test file to the box. The test files can be loaded onto an SD card, and from the box, the user can visually select which testing profile they want to run. We were inspired by the software workflow for most consumer 3D printers.</p>
+<p>The fist step in creating this functionality was deciding how we should encode the data such that the web UI could generate a file that the FlyBox could interpret. We decided to encode the data in a JSON array since JSON has well established text parsing capabilities for micro-controllers. I wrote firmware for the FlyBox so that it could read from an SD card and so that the user could select files. I also wrote methods to de-serialize the JSON text on the SD card and store the data in custom data structures. The FlyBox then uses these data to run complex tests over the course of several days. Tests included individual flashing lights at different intensities and frequencies turning on and off at specific times through the day. I also added additional features such as a live status screen, the ability to update the internal clock of the FlyBox, and a series of screens which guide the user through the test running procedure. All of the code was written in C++ for an ESP32 micro-controller.</p>
+<p>The code for this project can be found in the GitHub link below.</p>
 <h3 id="links">Links</h3>
 <ul>
 <li><a href="https://github.com/ctallum/FlyBox">Github Repo</a></li>
