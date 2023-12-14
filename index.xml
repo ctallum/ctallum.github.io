@@ -37,6 +37,15 @@ During my internship, I had the opportunity to see how robotic systems are used 
     </item>
     
     <item>
+      <title>Warehouse Robotics Obstacle Avoidance</title>
+      <link>https://chrisallum.com/samiam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/samiam/</guid>
+      <description>For my class EK505: Introduction to Robotics, for our final project, my team designed an obstacle avoidance system for warehouse robots. Typical warehouse robots use LiDAR to detect obstacles and the environment around them. However, this leaves them prone to small pieces of debris such as broken pallet chunks that are often found in warehouses. Robots can slip on them and whatever they are carrying may be damaged if the robot falls.</description>
+    </item>
+    
+    <item>
       <title>B-trees</title>
       <link>https://chrisallum.com/b-tree/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
