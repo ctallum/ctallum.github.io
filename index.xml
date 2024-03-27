@@ -5,15 +5,14 @@
     <link>https://chrisallum.com/</link>
     <description>Recent content on Chris Allum Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 05 Nov 2016 21:05:33 +0530</lastBuildDate><atom:link href="https://chrisallum.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://chrisallum.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lab Engineer at Brandeis University</title>
       <link>https://chrisallum.com/scope/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisallum.com/scope/</guid>
-      <description>About For my senior capstone project at Olin College, I worked with a team with Olin students in collaboration with Brandeis University to redesign a piece of laboratory equipment called the FlyBox. The FlyBox was designed by Brandeis to monitor and track the behavior of fruit flies over multi-day periods for circadian rhythm research. Using specific lights in the FlyBox, researchers were able to use optogenetics to control individual neurons in the flies&#39; brains and see how their sleep patterns changed.</description>
+      <description>Summary  Worked with Brandeis University to redesign a piece of laboratory equipment called the Flybox from scratch Wrote firmware in C on an ESP32 to create new user interface and underlying controls for device Wrote code to deserialize, parse, and manipulate JSON text files Wrote code to integrate control of optogenetic lights, RTC chips, LCD display, buttons, and other peripherals Worked with Brandeis research lab for user testing and  For my senior capstone project at Olin College, I worked with a team with Olin students in collaboration with Brandeis University to redesign a piece of laboratory equipment called the FlyBox.</description>
     </item>
     
     <item>
