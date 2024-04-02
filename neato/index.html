@@ -100,41 +100,26 @@
          <h3 id="about">About</h3>
 <p>
 
-<img src="/neato/neato.png" width="70%" >
-
-
-
+<img src="/neato/neato.jpeg" width="70%" >
 <br/></p>
 <p>In this project, I programed a Neato vacuuming robot to traverse an obstacle course. The Neato was placed in an arena with several boxes that served as obstacles. The goal was for the Neato to autonomously scan the environment using it&rsquo;s LIDAR sensor, plan a course (avoiding the obstacles), and make its way to the goal object, a round barrel.</p>
 <p>
 
 <img src="/neato/course.png" width="400" >
-
-
-
 <br></p>
 <p>Above is an image of the course the robot was placed in. The course was made up of several cardboard boxes that the robot was trying to avoid and a circular bucket that the robot was attempting to drive towards.</p>
 <p>
 
 <img src="/neato/planned_path.png" width="600x" >
-
-
-
 <br/></p>
 <p>The robot is first placed at the coordinate location (0,0). It then uses it&rsquo;s LIDAR sensor to scan its surroundings. In the image above, the black dots represent the objects the LIDAR sensor detected. Using these data, the robot then autonomously creates a path towards the goal object and drives along it. In the image above, the red path shows the robot&rsquo;s final path from its origin to its target, a round barrel.</p>
 
 
 <img src="/neato/ransac.png" width="600x" >
-
-
-
 <p>Before creating the path, the robot first uses a RANSAC algorithm to transform the initial LIDAR data into a set of lines and a full circle for the barrel. The lines represent objects that the robot should avoid, and the circle is the object that the robot should drive towards.</p>
 <p>
 
 <img src="/neato/potential_field.png" width="600x" >
-
-
-
 <br/></p>
 <p>To plan the path, the robot then constructs a potential field of the map. The highest peak in the field represents is the barrel that the robot is trying to reach. All the divots in the potential field represent objects that the robot is trying to avoid. To create a viable path, the robot performs a gradient ascent. The process of gradient ascent is for the robot to always travel in the direction of gradient. By following the gradient of the potential field, the robot will travel from the origin to the local maximum while avoiding all the divots. This results in a path that avoids the real world obstacles and heads toward the target barrel.</p>
 <h3 id="video-demonstration">Video Demonstration</h3>

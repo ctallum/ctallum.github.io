@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisallum.com/scope/</guid>
-      <description>Summary  Worked with Brandeis University to redesign a piece of laboratory equipment called the Flybox from scratch Wrote firmware in C on an ESP32 to create new user interface and underlying controls for device Wrote code to deserialize, parse, and manipulate JSON text files Wrote code to integrate control of optogenetic lights, RTC chips, LCD display, buttons, and other peripherals Worked with Brandeis research lab for user testing and  For my senior capstone project at Olin College, I worked with a team with Olin students in collaboration with Brandeis University to redesign a piece of laboratory equipment called the FlyBox.</description>
+      <description>Summary  Worked with Brandeis University to redesign a piece of laboratory equipment called the Flybox from scratch Wrote firmware in C on an ESP32 to create new user interface and underlying controls for device Wrote code to deserialize, parse, and manipulate JSON text files Wrote code to integrate control of optogenetic lights, RTC chips, LCD display, buttons, and other peripherals Worked with Brandeis research lab for user testing through multiple iterations and design changes  About For my senior capstone project at Olin College, I worked with a team with Olin students in collaboration with Brandeis University to redesign a piece of laboratory equipment called the FlyBox.</description>
     </item>
     
     <item>
@@ -21,8 +21,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisallum.com/markforged/</guid>
-      <description>While at Markforged, I worked as a software intern working to design the user interface and functionality of the new FX20 printers. While on the team, I worked on the following:
- I worked on some internal benchmarking and stress testing tools Internal software optimizations that reduced print file processing time by around 7x. For large multiday prints on the FX20, this could save several minutes of processing time. Wrote lots of logging functionality for the new firmware on the FX20 to help developers understand the current state of the machine and to make debugging and finding errors easier I worked primarily in Typescript and a tiny bit with Rust  To give you an idea of the stuff I was working on, here is a photo of the FX20 printer that I was working with.</description>
+      <description> Summary  Software intern working on user interface and functionality of new FX20 3D printers Wrote internal benchmarking and stress testing tools used to test print file parsing and decryption Wrote internal software optimizations that reduced print file processing time by around 7x Wrote event logging functionality to help developers understand the current state of the machine and to make debugging and finding errors easier Worked on miscellaneous bug fixes and small upgrades Worked primarily in Typescript and a tiny bit with Rust Participated daily standup meetings  </description>
+    </item>
+    
+    <item>
+      <title>Baja SAE</title>
+      <link>https://chrisallum.com/baja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/baja/</guid>
+      <description>Summary  Suspension design lead for 3 years Led a team of 10 members in designing a new four-wheel drive suspension system for a competitive off-road vehicle Organized and led bi-weekly suspension team meetings Mentored students in topics such as design for manufacturing, failure analysis, and FEA Designed front suspension geometry, brakes, and steering assemblies  By the numbers  50+ custom designed vehicle components 300+ hours in the machine shop 100+ parts machined (Lathe, Mill, CNC Mill, Welded)  Photo Gallary Below are a bunch of photos of parts that I have designed or made:</description>
     </item>
     
     <item>
@@ -31,8 +39,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisallum.com/honda/</guid>
-      <description>I worked as a robotics intern at Honda Development and Manufacturing of America, specifically at the Alabama Automotive Plant. While at Honda, I worked in the Weld 1 department where Honda vehicles are autonomously assembled and welded using several hundred Fanuc robots.
-During my internship, I had the opportunity to see how robotic systems are used within the industrial and automotive industry. A few of the projects I worked on during my internship are the following:</description>
+      <description>Summary  Worked as a robotics intern at Honda Manufacturing Alabama Automotive Plant in the robotic welding division Helped install and train a vision system on a Fanuc spot welding robot to assist in pick and place operations Reduced mispicks led to a reduction in assembly line downtime, costs, and human injury Worked to install and train a vision system to gather data on another Fanuc pick and place robot. Data was used to identify potential problems with line operations and identify source of inconsistent robot operations.</description>
     </item>
     
     <item>
@@ -41,7 +48,7 @@ During my internship, I had the opportunity to see how robotic systems are used 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisallum.com/samiam/</guid>
-      <description>For my class EK505: Introduction to Robotics, for our final project, my team designed an obstacle avoidance system for warehouse robots. Typical warehouse robots use LiDAR to detect obstacles and the environment around them. However, this leaves them prone to small pieces of debris such as broken pallet chunks that are often found in warehouses. Robots can slip on them and whatever they are carrying may be damaged if the robot falls.</description>
+      <description>Summary  Developed a novel method of obstacle avoidance for warehouse robotics using and overhead RGB camera Used camera to detect potential obstacles using real-time image segmentation Used Control Lyapnuov Functions - Control Barrier Functions (CLF-CBF) to create a local path planner to re-route robot around potential obstacles Used differential drive robot kinematics and inverse-kinematics to control robot along path  Context For my class EK505: Introduction to Robotics, for our final project, my team designed an obstacle avoidance system for warehouse robots.</description>
     </item>
     
     <item>
@@ -51,15 +58,6 @@ During my internship, I had the opportunity to see how robotic systems are used 
       
       <guid>https://chrisallum.com/b-tree/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Baja SAE</title>
-      <link>https://chrisallum.com/baja/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisallum.com/baja/</guid>
-      <description>Overview I was a member of Olin&amp;rsquo;s Baja SAE team for four years. The team worked on designing a new off-road vehicle each year in preparation for an end of year competition. For three years, I served as the head of the suspension sub-team, leading the design and fabrication of the suspension, steering, cockpit, and brakes. In effect, our sub-team designed and fabricated any component on the car that wasn&amp;rsquo;t the main chassis or the engine, gearbox, and transmission.</description>
     </item>
     
     <item>
