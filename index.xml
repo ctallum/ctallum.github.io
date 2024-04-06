@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisallum.com/scope/</guid>
-      <description>Summary  Worked with Brandeis University to redesign a piece of laboratory equipment called the Flybox from scratch Wrote firmware in C on an ESP32 to create new user interface and underlying controls for device Wrote code to deserialize, parse, and manipulate JSON text files Wrote code to integrate control of optogenetic lights, RTC chips, LCD display, buttons, and other peripherals Worked with Brandeis research lab for user testing through multiple iterations and design changes  About For my senior capstone project at Olin College, I worked with a team with Olin students in collaboration with Brandeis University to redesign a piece of laboratory equipment called the FlyBox.</description>
+      <description>Summary  Worked with Brandeis University to redesign a piece of laboratory equipment called the Flybox from scratch Wrote firmware in C on an ESP32 to create new user interface and underlying controls for device Wrote code to deserialize, parse, and manipulate JSON text files Wrote code to integrate control of optogenetic lights, RTC chips, LCD display, buttons, and other peripherals Worked with Brandeis research lab for user testing through multiple iterations and design changes  Scope Summit Poster  About For my senior capstone project at Olin College, I worked with a team with Olin students in collaboration with Brandeis University to redesign a piece of laboratory equipment called the FlyBox.</description>
     </item>
     
     <item>
@@ -66,8 +66,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisallum.com/dfm/</guid>
-      <description>Treasure Box The first project that I worked on was designing a &amp;ldquo;treasure box&amp;rdquo; that would be machined out of a 6&amp;quot;x6&amp;quot;x3&amp;quot; block of aluminum. The box would be CNC milled using a Tormach mill. I decided that I would try to make my box look like a pie. Here are a few images of the CAD and the final result:
-The first design included a full lattice pattern on the top of the box.</description>
+      <description>Summary  Designed and fabricated series of objects from scratch using DFM principles Used techniques such as CNC milling, vacuum forming, injection molding, silicon molding, and more  Treasure Box The first project that I worked on was designing a &amp;ldquo;treasure box&amp;rdquo; that would be machined out of a 6&amp;quot;x6&amp;quot;x3&amp;quot; block of aluminum. The box would be CNC milled using a Tormach mill. I decided that I would try to make my box look like a pie.</description>
     </item>
     
     <item>
