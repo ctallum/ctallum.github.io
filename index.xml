@@ -45,7 +45,7 @@ June 3 - 7  For this week, I mainly spent time getting familiar with the project
     </item>
     
     <item>
-      <title>Custom 3D Print Slicer Designed for Fiber Inlays</title>
+      <title>Custom 3D Printer Slicer for Fiber Reinforced Prints</title>
       <link>https://chrisallum.com/3d_slicer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -100,7 +100,7 @@ June 3 - 7  For this week, I mainly spent time getting familiar with the project
     </item>
     
     <item>
-      <title>Path Planning through Gradient Descent</title>
+      <title>Path Planning for Robot Vacuum using Gradient Descent</title>
       <link>https://chrisallum.com/neato/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -111,7 +111,7 @@ In this project, I programed a Neato vacuuming robot to traverse an obstacle cou
     </item>
     
     <item>
-      <title>Rock Paper Scissors Machine Learning</title>
+      <title>Rock Paper Scissors CNN Machine Learning Model</title>
       <link>https://chrisallum.com/rock_paper_scissors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -121,23 +121,13 @@ In this project, I programed a Neato vacuuming robot to traverse an obstacle cou
     </item>
     
     <item>
-      <title>Rocky: Stabilization of an Wheeled Inverted Pendulum </title>
+      <title>Wheeled Inverted Pendulum Robot Using PID Control System</title>
       <link>https://chrisallum.com/rocky/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chrisallum.com/rocky/</guid>
       <description>In this project, I helped design and implement a control system that maintains the balance of a wheeled inverted pendulum and corrects for angular disturbance.
 For this project, we used a Pololu Balboa 32U4 robot kit as the robotic base with a set of 0.6 m long laser-cut MDF side extension to raise the center of mass and create the inverted pendulum. At the top of the robot are a set of weights, adding up to around 200g.</description>
-    </item>
-    
-    <item>
-      <title>Fully Autonomous Rover</title>
-      <link>https://chrisallum.com/rover/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisallum.com/rover/</guid>
-      <description>Overview With a team of 5 other Olin students, I helped built a fully autonomous rover that was capable of driving around campus. The Rover was capable of driving from point to point while preforming obstacle avoidance. The Rover also had a manipulator on the front that was capable of picking up and dropping items.
-The rover navigated using a series of sensors. On the rover were two sonar sensors, five infrared distance sensors, a GPS module, and webcam capable of object recognition.</description>
     </item>
     
     <item>
@@ -167,6 +157,16 @@ To build this algorithm, I first assembled a training set of 89 images of hot do
       
       <guid>https://chrisallum.com/game_development/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Waypoint Navigation Rover</title>
+      <link>https://chrisallum.com/rover/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/rover/</guid>
+      <description>Overview With a team of 5 other Olin students, I helped built a fully autonomous rover that was capable of driving around campus. The Rover was capable of driving from point to point while preforming obstacle avoidance. The Rover also had a manipulator on the front that was capable of picking up and dropping items.
+The rover navigated using a series of sensors. On the rover were two sonar sensors, five infrared distance sensors, a GPS module, and webcam capable of object recognition.</description>
     </item>
     
     <item>
