@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Chris Allum Portfolio</title>
+<meta name="description" content="Online portfolio for Chris Allum">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://chrisallum.com/css/bootstrap.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+<link rel="stylesheet" href="https://chrisallum.com/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://chrisallum.com/css/owl.carousel.css">
+<link rel="stylesheet" href="https://chrisallum.com/css/owl.theme.css">
+
+
+  <link href="https://chrisallum.com/css/style.blue.css" rel="stylesheet" id="theme-stylesheet">
+
+ 
+
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+
+<link href="https://chrisallum.com/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://chrisallum.com/img/favicon.png">
+
+
+</head>
+<body>
+  <div id="all">
+      <div class="container-fluid">
+          <div class="row row-offcanvas row-offcanvas-left">
+              <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"><a href="https://chrisallum.com/">Chris Allum Portfolio</a></h1>
+
+    <img src="/profile_photo.jpg" alt="Portfolio Image" style="padding-bottom: 15px;" width="100%">
+
+    
+      <p class="sidebar-p">Hi, I'm a Graduate student at Boston University working towards my M.S. in Robotics and Autonomous Systems. I graduated from Olin College of Engineering with a B.S. in Engineering with a concentration in Robotics. I'm passionate about robotic path planning, autonomous systems, mechanics, renewable energy, and all things green tech! Check out a few of my projects!</p>
+    
+      <p class="sidebar-p">Boston University | 2023-present | M.S. Robotics and Autonomous Systems</p>
+    
+      <p class="sidebar-p">Olin College | 2019-2023 | B.S. Engineering with Concentration in Robotics</p>
+    
+    <ul class="sidebar-menu">
+      
+        <li><a href="https://chrisallum.com/">Home</a></li>
+      
+        <li><a href="https://chrisallum.com/about/">About</a></li>
+      
+    </ul>
+    <p class="social">
+  
+  
+  
+  
+  
+  <a href="mailto:ctallum@gmail.com" data-animate-hover="pulse" class="email" title="E-mail">
+    <i class="fa fa-envelope"></i>
+  </a>
+  
+  
+  <a href="https://www.linkedin.com/in/chris-allum/" data-animate-hover="pulse" class="external" title="LinkedIn" rel="me">
+    <i class="fa fa-linkedin"></i>
+  </a>
+  
+  
+  
+  <a href="https://github.com/ctallum" data-animate-hover="pulse" class="external" title="GitHub" rel="me">
+    <i class="fa fa-github"></i>
+  </a>
+  
+  
+  
+  
+</p>
+
+
+    <p class="sidebar-p"> Last Updated: Jul 22, 2024 </p>
+    
+  </div>
+</div>
+
+              
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  <div class="small-navbar visible-xs">
+  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+  <h1 class="small-navbar-heading"><a href="https://chrisallum.com/">Chris Allum Portfolio</a></h1>
+</div>
+
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="content-column-content">
+         <h2>Path Planning for Robotic Arm Carving a Sculpture</h2>
+         <h4>Dec 2023</h4>
+         <h3 id="summary">Summary</h3>
+<ul>
+<li>I attempted to create a path planning algorithm for a robot to carve any 3D model out of an initial rectangular prism</li>
+<li>Generated admissible &ldquo;cuts&rdquo; and &ldquo;slices&rdquo; in order to remove material</li>
+<li>Investigated different &ldquo;cut&rdquo; orderings in order to optimize cut time</li>
+</ul>
+<h3 id="the-process">The Process</h3>
+<p>In summary, the algorithm works by first converting the input model into a point cloud. Then, the point cloud is projected onto a series of 2D planes. On each plane, a set of concave and convex cuts are generated that remove material. Each cut is defined by a set of lines. These lines are then brought back into 3D where they are full slices. We can then remove material from the STL using these planes. With enough cuts, we eventually approximate our input geometry.</p>
+
+
+
+
+<div class="image-gallery">
+<ul>
+  
+
+    
+    
+    
+  
+    <li>
+      <a href="https://chrisallum.com/robotic_carving/gallery/Figure%201_huc0cd09b593a94a6d443269cb01ce691d_56940_1600x1600_fit_q50_box_3.png" title="Figure 1" class="lightbox-image">
+        <img src="https://chrisallum.com/robotic_carving/gallery/Figure%201_huc0cd09b593a94a6d443269cb01ce691d_56940_300x300_fill_q50_box_smart1_3.png" alt="Figure 1" title="Figure 1">
+        <span>Figure 1</span>
+      </a>
+    </li>
+
+  
+
+    
+    
+    
+  
+    <li>
+      <a href="https://chrisallum.com/robotic_carving/gallery/Figure%202_hub62f2059fade18d320adbed92d07ce4d_24030_1600x1600_fit_q50_box_3.png" title="Figure 2" class="lightbox-image">
+        <img src="https://chrisallum.com/robotic_carving/gallery/Figure%202_hub62f2059fade18d320adbed92d07ce4d_24030_300x300_fill_q50_box_smart1_3.png" alt="Figure 2" title="Figure 2">
+        <span>Figure 2</span>
+      </a>
+    </li>
+
+  
+
+    
+    
+    
+  
+    <li>
+      <a href="https://chrisallum.com/robotic_carving/gallery/Figure%203_hude66c37c637be61b71d390f1d00f9fdf_32315_1600x1600_fit_q50_box_3.png" title="Figure 3" class="lightbox-image">
+        <img src="https://chrisallum.com/robotic_carving/gallery/Figure%203_hude66c37c637be61b71d390f1d00f9fdf_32315_300x300_fill_q50_box_smart1_3.png" alt="Figure 3" title="Figure 3">
+        <span>Figure 3</span>
+      </a>
+    </li>
+
+  
+
+    
+    
+    
+  
+    <li>
+      <a href="https://chrisallum.com/robotic_carving/gallery/Figure%204_hub13ed2bcd8993b707395bf8e97cae59c_33595_1600x1600_fit_q50_box_3.png" title="Figure 4" class="lightbox-image">
+        <img src="https://chrisallum.com/robotic_carving/gallery/Figure%204_hub13ed2bcd8993b707395bf8e97cae59c_33595_300x300_fill_q50_box_smart1_3.png" alt="Figure 4" title="Figure 4">
+        <span>Figure 4</span>
+      </a>
+    </li>
+
+  
+
+    
+    
+    
+  
+    <li>
+      <a href="https://chrisallum.com/robotic_carving/gallery/Figure%205_hua5529951f0214d9e529265b576101599_63590_1600x1600_fit_q50_box_3.png" title="Figure 5" class="lightbox-image">
+        <img src="https://chrisallum.com/robotic_carving/gallery/Figure%205_hua5529951f0214d9e529265b576101599_63590_300x300_fill_q50_box_smart1_3.png" alt="Figure 5" title="Figure 5">
+        <span>Figure 5</span>
+      </a>
+    </li>
+
+  
+
+    
+    
+    
+  
+    <li>
+      <a href="https://chrisallum.com/robotic_carving/gallery/Figure%206_huc0cd09b593a94a6d443269cb01ce691d_85047_1600x1600_fit_q50_box_3.png" title="Figure 6" class="lightbox-image">
+        <img src="https://chrisallum.com/robotic_carving/gallery/Figure%206_huc0cd09b593a94a6d443269cb01ce691d_85047_300x300_fill_q50_box_smart1_3.png" alt="Figure 6" title="Figure 6">
+        <span>Figure 6</span>
+      </a>
+    </li>
+
+  
+
+    
+    
+    
+  
+    <li>
+      <a href="https://chrisallum.com/robotic_carving/gallery/Figure%207_hue2019cdb0b01400cfac9d2a67d626fca_51486_1600x1600_fit_q50_box_3.png" title="Figure 7" class="lightbox-image">
+        <img src="https://chrisallum.com/robotic_carving/gallery/Figure%207_hue2019cdb0b01400cfac9d2a67d626fca_51486_300x300_fill_q50_box_smart1_3.png" alt="Figure 7" title="Figure 7">
+        <span>Figure 7</span>
+      </a>
+    </li>
+
+  
+
+    
+    
+    
+  
+    <li>
+      <a href="https://chrisallum.com/robotic_carving/gallery/Figure%208_huc0cd09b593a94a6d443269cb01ce691d_56488_1600x1600_fit_q50_box_3.png" title="Figure 8" class="lightbox-image">
+        <img src="https://chrisallum.com/robotic_carving/gallery/Figure%208_huc0cd09b593a94a6d443269cb01ce691d_56488_300x300_fill_q50_box_smart1_3.png" alt="Figure 8" title="Figure 8">
+        <span>Figure 8</span>
+      </a>
+    </li>
+
+  
+</ul>
+</div>
+
+
+<h3 id="report">Report</h3>
+<iframe src="https://drive.google.com/file/d/1BSLqR7ghwx_ONxx5ghP0ZvuOpNOnsEcg/preview" width="100%" height="800" allow="autoplay"></iframe>
+
+         
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+      </div>
+  </div>
+  <script src="https://chrisallum.com/js/jquery.min.js"></script>
+<script src="https://chrisallum.com/js/bootstrap.min.js"></script>
+<script src="https://chrisallum.com/js/jquery.cookie.js"> </script>
+<script src="https://chrisallum.com/js/ekko-lightbox.js"></script>
+<script src="https://chrisallum.com/js/jquery.scrollTo.min.js"></script>
+<script src="https://chrisallum.com/js/masonry.pkgd.min.js"></script>
+<script src="https://chrisallum.com/js/imagesloaded.pkgd.min.js"></script>
+<script src="https://chrisallum.com/js/owl.carousel.min.js"></script>
+<script src="https://chrisallum.com/js/front.js"></script>
+
+
+
+</body>
+</html>

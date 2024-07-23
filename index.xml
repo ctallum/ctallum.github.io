@@ -64,6 +64,15 @@ June 3 - 7  For this week, I mainly spent time getting familiar with the project
     </item>
     
     <item>
+      <title>Path Planning for Robotic Arm Carving a Sculpture</title>
+      <link>https://chrisallum.com/robotic_carving/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/robotic_carving/</guid>
+      <description>Summary  I attempted to create a path planning algorithm for a robot to carve any 3D model out of an initial rectangular prism Generated admissible &amp;ldquo;cuts&amp;rdquo; and &amp;ldquo;slices&amp;rdquo; in order to remove material Investigated different &amp;ldquo;cut&amp;rdquo; orderings in order to optimize cut time  The Process In summary, the algorithm works by first converting the input model into a point cloud. Then, the point cloud is projected onto a series of 2D planes.</description>
+    </item>
+    
+    <item>
       <title>Warehouse Robotics Obstacle Avoidance</title>
       <link>https://chrisallum.com/samiam/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
