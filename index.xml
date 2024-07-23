@@ -45,6 +45,16 @@ June 3 - 7  For this week, I mainly spent time getting familiar with the project
     </item>
     
     <item>
+      <title>Custom 3D Print Slicer Designed for Fiber Inlays</title>
+      <link>https://chrisallum.com/3d_slicer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisallum.com/3d_slicer/</guid>
+      <description>Summary  Created a custom 3d printer slicer that takes any 3d model and slices it into a set of paths that are optimized for fiber inlays. Each layer is a single stroke and non self-intersecting Custom infill geometry (square, triangle, or hexagon) and infill density  Context Inspired by the following research paper:
+ A novel single-stroke path planning algorithm for 3D printers using continuous carbon fiber reinforced thermoplastics - Yamamoto et al.</description>
+    </item>
+    
+    <item>
       <title>Honda Robotics Internship</title>
       <link>https://chrisallum.com/honda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
