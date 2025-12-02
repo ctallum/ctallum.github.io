@@ -4,188 +4,141 @@
     <title>Chris Allum Portfolio</title>
     <link>https://chrisallum.com/</link>
     <description>Recent content on Chris Allum Portfolio</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://chrisallum.com/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://chrisallum.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lab Engineer at Brandeis University</title>
       <link>https://chrisallum.com/scope/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://chrisallum.com/scope/</guid>
-      <description>Summary  Worked with Brandeis University to redesign a piece of laboratory equipment called the Flybox from scratch Wrote firmware in C on an ESP32 to create new user interface and underlying controls for device Wrote code to deserialize, parse, and manipulate JSON text files Wrote code to integrate control of optogenetic lights, RTC chips, LCD display, buttons, and other peripherals Worked with Brandeis research lab for user testing through multiple iterations and design changes  Scope Summit Poster  About For my senior capstone project at Olin College, I worked with a team with Olin students in collaboration with Brandeis University to redesign a piece of laboratory equipment called the FlyBox.</description>
+      <description>&lt;img src=&#34;https://chrisallum.com/scope/FlyBox.JPG&#34; width=&#34;50%&#34; &gt;&#xA;&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Worked with Brandeis University to redesign a piece of laboratory equipment called the Flybox from scratch&lt;/li&gt;&#xA;&lt;li&gt;Wrote firmware in C on an ESP32 to create new user interface and underlying controls for device&lt;/li&gt;&#xA;&lt;li&gt;Wrote code to deserialize, parse, and manipulate JSON text files&lt;/li&gt;&#xA;&lt;li&gt;Wrote code to integrate control of optogenetic lights, RTC chips, LCD display, buttons, and other peripherals&lt;/li&gt;&#xA;&lt;li&gt;Worked with Brandeis research lab for user testing through multiple iterations and design changes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;scope-summit-poster&#34;&gt;Scope Summit Poster&lt;/h3&gt;&#xA;&lt;iframe src=&#34;https://drive.google.com/file/d/19ff80HY2qeMLv_a6H1LmFTKAPSMkIdd6/preview&#34; width=&#34;100%&#34; id=&#34;Iframe&#34; height=&#34;550&#34;&gt; &lt;/iframe&gt;&#xA;&lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;&#xA;&lt;p&gt;For my senior capstone project at Olin College, I worked with a team with Olin students in collaboration with Brandeis University to redesign a piece of laboratory equipment called the FlyBox. The FlyBox was designed by Brandeis to monitor and track the behavior of fruit flies over multi-day periods for circadian rhythm research. Using specific lights in the FlyBox, researchers were able to use optogenetics to control individual neurons in the flies&amp;rsquo; brains and see how their sleep patterns changed. The device was created to replaced existing methods of fruit fly behavior observation, offering more detailed and accurate data at a lower cost. The FlyBox has already been used to generate data for Nobel Prize-winning research on the circadian rhythm. However, the current version of the FlyBox was just a prototype. It lacked the durability and polish needed for long term use. Furthermore, Brandeis wished for the FlyBox to be created from a simple open source kit, able to be assembled by anybody. In a kit form, the FlyBox could be shared and used by partner institutions around the world. The goal of project was to redesign the FlyBox from a functional prototype into a polished product that was more robust, able to be assembled from a kit, and be user friendly.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Markforged Software Intern</title>
       <link>https://chrisallum.com/markforged/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://chrisallum.com/markforged/</guid>
-      <description> Summary  Software intern working on user interface and functionality of new FX20 3D printers Wrote internal benchmarking and stress testing tools used to test print file parsing and decryption Wrote internal software optimizations that reduced print file processing time by around 7x Wrote event logging functionality to help developers understand the current state of the machine and to make debugging and finding errors easier Worked on miscellaneous bug fixes and small upgrades Worked primarily in Typescript and a tiny bit with Rust Participated daily standup meetings  </description>
+      <description>&lt;img src=&#34;https://chrisallum.com/markforged/fx20.jpg&#34; width=&#34;50%&#34; &gt;&#xA;&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Software intern working on user interface and functionality of new FX20 3D printers&lt;/li&gt;&#xA;&lt;li&gt;Wrote internal benchmarking and stress testing tools used to test print file parsing and decryption&lt;/li&gt;&#xA;&lt;li&gt;Wrote internal software optimizations that reduced print file processing time by around 7x&lt;/li&gt;&#xA;&lt;li&gt;Wrote event logging functionality to help developers understand the current state of the machine and to make debugging and finding errors easier&lt;/li&gt;&#xA;&lt;li&gt;Worked on miscellaneous bug fixes and small upgrades&lt;/li&gt;&#xA;&lt;li&gt;Worked primarily in Typescript and a tiny bit with Rust&lt;/li&gt;&#xA;&lt;li&gt;Participated daily standup meetings&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Robotics Research at Boston University</title>
       <link>https://chrisallum.com/bu_robotics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://chrisallum.com/bu_robotics/</guid>
-      <description>About I worked with Prof. Tron and PhD candidate Zili Wang at the Boston University Robotics Lab to create gazebo ROS simulations to implement and test novel machine-learning based robotic exploration algorithms.
-NOTE: Page in progress, will update soon </description>
+      <description>&lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;&#xA;&lt;p&gt;I worked with Prof. Tron and PhD candidate Zili Wang at the Boston University Robotics Lab to create gazebo ROS simulations to implement and test novel machine-learning based robotic exploration algorithms.&lt;/p&gt;&#xA;&lt;h3 id=&#34;note-page-in-progress-will-update-soon&#34;&gt;NOTE: Page in progress, will update soon&lt;/h3&gt;</description>
     </item>
-    
     <item>
       <title>Baja SAE</title>
       <link>https://chrisallum.com/baja/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://chrisallum.com/baja/</guid>
-      <description>Summary  Suspension design lead for 3 years Led a team of 10 members in designing a new four-wheel drive suspension system for a competitive off-road vehicle Organized and led bi-weekly suspension team meetings Mentored students in topics such as design for manufacturing, failure analysis, and FEA Designed front suspension geometry, brakes, and steering assemblies  By the numbers  50+ custom designed vehicle components 300+ hours in the machine shop 100+ parts machined (Lathe, Mill, CNC Mill, Welded)  Photo Gallary Below are a bunch of photos of parts that I have designed or made:</description>
+      <description>&lt;img src=&#34;https://chrisallum.com/baja/IMG_4751.JPG&#34; width=&#34;70%&#34; &gt;&#xA;&lt;br&gt;&#xA;&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Suspension design lead for 3 years&lt;/li&gt;&#xA;&lt;li&gt;Led a team of 10 members in designing a new four-wheel drive suspension system for a competitive off-road vehicle&lt;/li&gt;&#xA;&lt;li&gt;Organized and led bi-weekly suspension team meetings&lt;/li&gt;&#xA;&lt;li&gt;Mentored students in topics such as design for manufacturing, failure analysis, and FEA&lt;/li&gt;&#xA;&lt;li&gt;Designed front suspension geometry, brakes, and steering assemblies&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;by-the-numbers&#34;&gt;By the numbers&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;50+ custom designed vehicle components&lt;/li&gt;&#xA;&lt;li&gt;300+ hours in the machine shop&lt;/li&gt;&#xA;&lt;li&gt;100+ parts machined (Lathe, Mill, CNC Mill, Welded)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;photo-gallary&#34;&gt;Photo Gallary&lt;/h3&gt;&#xA;&lt;p&gt;Below are a bunch of photos of parts that I have designed or made:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Custom 3D Printer Slicer for Fiber Reinforced Prints</title>
       <link>https://chrisallum.com/3d_slicer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://chrisallum.com/3d_slicer/</guid>
-      <description>Summary  Created a custom 3d printer slicer that takes any 3d model and slices it into a set of paths that are optimized for fiber inlays. Each layer is a single stroke and non self-intersecting Custom infill geometry (square, triangle, or hexagon) and infill density  Context Inspired by the following research paper:
- A novel single-stroke path planning algorithm for 3D printers using continuous carbon fiber reinforced thermoplastics - Yamamoto et al.</description>
+      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Created a custom 3d printer slicer that takes any 3d model and slices it into a set of paths that are optimized for fiber inlays.&lt;/li&gt;&#xA;&lt;li&gt;Each layer is a single stroke and non self-intersecting&lt;/li&gt;&#xA;&lt;li&gt;Custom infill geometry (square, triangle, or hexagon) and infill density&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;context&#34;&gt;Context&lt;/h3&gt;&#xA;&lt;p&gt;Inspired by the following research paper:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A novel single-stroke path planning algorithm for 3D printers using continuous carbon fiber reinforced thermoplastics - Yamamoto et al.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S2214860422002160&#34;&gt;https://www.sciencedirect.com/science/article/abs/pii/S2214860422002160&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;demo&#34;&gt;Demo&lt;/h3&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/zy1XrOZkLZE?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h3 id=&#34;report&#34;&gt;Report&lt;/h3&gt;&#xA;&lt;iframe src=&#34;https://drive.google.com/file/d/1ejkCT9NINRRBvkyBqgvgR37VjF5AFbnn/preview&#34; width=&#34;100%&#34; height=&#34;800&#34; allow=&#34;autoplay&#34;&gt;&lt;/iframe&gt;</description>
     </item>
-    
     <item>
       <title>Honda Robotics Internship</title>
       <link>https://chrisallum.com/honda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://chrisallum.com/honda/</guid>
-      <description>Summary  Worked as a robotics intern at Honda Manufacturing Alabama Automotive Plant in the robotic welding division Helped install and train a vision system on a Fanuc spot welding robot to assist in pick and place operations Reduced mispicks led to a reduction in assembly line downtime, costs, and human injury Worked to install and train a vision system to gather data on another Fanuc pick and place robot. Data was used to identify potential problems with line operations and identify source of inconsistent robot operations.</description>
+      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Worked as a robotics intern at Honda Manufacturing Alabama Automotive Plant in the robotic welding division&lt;/li&gt;&#xA;&lt;li&gt;Helped install and train a vision system on a Fanuc spot welding robot to assist in pick and place operations&lt;/li&gt;&#xA;&lt;li&gt;Reduced mispicks led to a reduction in assembly line downtime, costs, and human injury&lt;/li&gt;&#xA;&lt;li&gt;Worked to install and train a vision system to gather data on another Fanuc pick and place robot.&lt;/li&gt;&#xA;&lt;li&gt;Data was used to identify potential problems with line operations and identify source of inconsistent robot operations.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;final-presentation&#34;&gt;Final Presentation&lt;/h2&gt;&#xA;&lt;iframe src=&#34;https://drive.google.com/file/d/1GDabXP7awrgRKtSSWVY6hjX9s4Fy_Hyl/preview&#34; width=&#34;100%&#34; height=&#34;480&#34; allow=&#34;autoplay&#34;&gt;&lt;/iframe&gt;</description>
     </item>
-    
     <item>
       <title>Path Planning for Robotic Arm Carving a Sculpture</title>
       <link>https://chrisallum.com/robotic_carving/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://chrisallum.com/robotic_carving/</guid>
-      <description>Summary  I attempted to create a path planning algorithm for a robot to carve any 3D model out of an initial rectangular prism Generated admissible &amp;ldquo;cuts&amp;rdquo; and &amp;ldquo;slices&amp;rdquo; in order to remove material Investigated different &amp;ldquo;cut&amp;rdquo; orderings in order to optimize cut time  The Process In summary, the algorithm works by first converting the input model into a point cloud. Then, the point cloud is projected onto a series of 2D planes.</description>
+      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I attempted to create a path planning algorithm for a robot to carve any 3D model out of an initial rectangular prism&lt;/li&gt;&#xA;&lt;li&gt;Generated admissible &amp;ldquo;cuts&amp;rdquo; and &amp;ldquo;slices&amp;rdquo; in order to remove material&lt;/li&gt;&#xA;&lt;li&gt;Investigated different &amp;ldquo;cut&amp;rdquo; orderings in order to optimize cut time&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;the-process&#34;&gt;The Process&lt;/h3&gt;&#xA;&lt;p&gt;In summary, the algorithm works by first converting the input model into a point cloud. Then, the point cloud is projected onto a series of 2D planes. On each plane, a set of concave and convex cuts are generated that remove material. Each cut is defined by a set of lines. These lines are then brought back into 3D where they are full slices. We can then remove material from the STL using these planes. With enough cuts, we eventually approximate our input geometry.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Warehouse Robotics Obstacle Avoidance</title>
       <link>https://chrisallum.com/samiam/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://chrisallum.com/samiam/</guid>
-      <description>Summary  Developed a novel method of obstacle avoidance for warehouse robotics using and overhead RGB camera Used camera to detect potential obstacles using real-time image segmentation Used Control Lyapnuov Functions - Control Barrier Functions (CLF-CBF) to create a local path planner to re-route robot around potential obstacles Used differential drive robot kinematics and inverse-kinematics to control robot along path  Context For my class EK505: Introduction to Robotics, for our final project, my team designed an obstacle avoidance system for warehouse robots.</description>
+      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Developed a novel method of obstacle avoidance for warehouse robotics using and overhead RGB camera&lt;/li&gt;&#xA;&lt;li&gt;Used camera to detect potential obstacles using real-time image segmentation&lt;/li&gt;&#xA;&lt;li&gt;Used Control Lyapnuov Functions - Control Barrier Functions (CLF-CBF) to create a local path planner to re-route robot around potential obstacles&lt;/li&gt;&#xA;&lt;li&gt;Used differential drive robot kinematics and inverse-kinematics to control robot along path&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;context&#34;&gt;Context&lt;/h3&gt;&#xA;&lt;p&gt;For my class EK505: Introduction to Robotics, for our final project, my team designed an obstacle avoidance system for warehouse robots. Typical warehouse robots use LiDAR to detect obstacles and the environment around them. However, this leaves them prone to small pieces of debris such as broken pallet chunks that are often found in warehouses. Robots can slip on them and whatever they are carrying may be damaged if the robot falls. To solve this problem, our group explored using an overhead RGB camera to detect obstacles.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>B-trees</title>
       <link>https://chrisallum.com/b-tree/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://chrisallum.com/b-tree/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Design for Manufacturing</title>
       <link>https://chrisallum.com/dfm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://chrisallum.com/dfm/</guid>
-      <description>Summary  Designed and fabricated series of objects from scratch using DFM principles Used techniques such as CNC milling, vacuum forming, injection molding, silicon molding, and more  Treasure Box The first project that I worked on was designing a &amp;ldquo;treasure box&amp;rdquo; that would be machined out of a 6&amp;quot;x6&amp;quot;x3&amp;quot; block of aluminum. The box would be CNC milled using a Tormach mill. I decided that I would try to make my box look like a pie.</description>
+      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Designed and fabricated series of objects from scratch using DFM principles&lt;/li&gt;&#xA;&lt;li&gt;Used techniques such as CNC milling, vacuum forming, injection molding, silicon molding, and more&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;treasure-box&#34;&gt;Treasure Box&lt;/h3&gt;&#xA;&lt;p&gt;The first project that I worked on was designing a &amp;ldquo;treasure box&amp;rdquo; that would be machined out of a 6&amp;quot;x6&amp;quot;x3&amp;quot; block of aluminum. The box would be CNC milled using a Tormach mill. I decided that I would try to make my box look like a pie. Here are a few images of the CAD and the final result:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dynamics Simulations</title>
       <link>https://chrisallum.com/dynamics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://chrisallum.com/dynamics/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Path Planning for Robot Vacuum using Gradient Descent</title>
       <link>https://chrisallum.com/neato/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://chrisallum.com/neato/</guid>
-      <description>About  
-In this project, I programed a Neato vacuuming robot to traverse an obstacle course. The Neato was placed in an arena with several boxes that served as obstacles. The goal was for the Neato to autonomously scan the environment using it&amp;rsquo;s LIDAR sensor, plan a course (avoiding the obstacles), and make its way to the goal object, a round barrel.
- Above is an image of the course the robot was placed in.</description>
+      <description>&lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;&#xA;&lt;p&gt;&#xA;&#xA;&lt;img src=&#34;https://chrisallum.com/neato/neato.jpeg&#34; width=&#34;70%&#34; &gt;&#xA;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this project, I programed a Neato vacuuming robot to traverse an obstacle course. The Neato was placed in an arena with several boxes that served as obstacles. The goal was for the Neato to autonomously scan the environment using it&amp;rsquo;s LIDAR sensor, plan a course (avoiding the obstacles), and make its way to the goal object, a round barrel.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&lt;img src=&#34;https://chrisallum.com/neato/course.png&#34; width=&#34;400&#34; &gt;&#xA;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;Above is an image of the course the robot was placed in. The course was made up of several cardboard boxes that the robot was trying to avoid and a circular bucket that the robot was attempting to drive towards.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Rock Paper Scissors CNN Machine Learning Model</title>
       <link>https://chrisallum.com/rock_paper_scissors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://chrisallum.com/rock_paper_scissors/</guid>
-      <description>In this project, I built a CNN machine learning model to identify hand poses in a game of rock paper scissors using PyTorch.
- Final Report  </description>
+      <description>&lt;p&gt;In this project, I built a CNN machine learning model to identify hand poses in a game of rock paper scissors using PyTorch.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;final-report&#34;&gt;Final Report&lt;/h2&gt;&#xA;&lt;iframe src=&#34;https://drive.google.com/file/d/1CeTWJtu9F-fdB8hhHZOJ-5R1r1CTqc4h/preview&#34; width=&#34;100%&#34; height=&#34;800&#34; allow=&#34;autoplay&#34;&gt;&lt;/iframe&gt;</description>
     </item>
-    
     <item>
       <title>Wheeled Inverted Pendulum Robot Using PID Control System</title>
       <link>https://chrisallum.com/rocky/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://chrisallum.com/rocky/</guid>
-      <description>In this project, I helped design and implement a control system that maintains the balance of a wheeled inverted pendulum and corrects for angular disturbance.
-For this project, we used a Pololu Balboa 32U4 robot kit as the robotic base with a set of 0.6 m long laser-cut MDF side extension to raise the center of mass and create the inverted pendulum. At the top of the robot are a set of weights, adding up to around 200g.</description>
+      <description>&lt;p&gt;In this project, I helped design and implement a control system that maintains the balance of a wheeled inverted pendulum and corrects for angular disturbance.&lt;/p&gt;&#xA;&lt;p&gt;For this project, we used a Pololu Balboa 32U4 robot kit as the robotic base with a set of 0.6 m long laser-cut MDF side extension to raise the center of mass and create the inverted pendulum. At the top of the robot are a set of weights, adding up to around 200g.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>High School Robotics</title>
       <link>https://chrisallum.com/hs_robotics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://chrisallum.com/hs_robotics/</guid>
-      <description>I was the head of my HS robotics team during my Junior and Senior years. We competed in the MATE ROV competition were we had to build an underwater remotely operated vehicle (ROV) to preform a series of tasks. Here are a few images of the robots I helped build and design.
-Our Rover These are photos of our final robot. The internals of the robot contained six motor controllers, an Arduino, and a Raspberry Pi.</description>
+      <description>&lt;p&gt;I was the head of my HS robotics team during my Junior and Senior years. We competed in the MATE ROV competition were we had to build an underwater remotely operated vehicle (ROV) to preform a series of tasks. Here are a few images of the robots I helped build and design.&lt;/p&gt;&#xA;&lt;h3 id=&#34;our-rover&#34;&gt;Our Rover&lt;/h3&gt;&#xA;&lt;p&gt;These are photos of our final robot. The internals of the robot contained six motor controllers, an Arduino, and a Raspberry Pi. These electronics controlled six bilge pump motors (for movement), two cameras, and and two servos that controlled a claw. Everything was controlled remotely by a 100 foot tether consisting of a single ethernet cable and a power line. On the surface, a computer ran a Processing program that communicated with the rover over a Python Flask server. Information such as motor speeds and serve positions were streamed over this server to the rover.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Object Recognition: Hot Dog or Not</title>
       <link>https://chrisallum.com/object_recognition/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://chrisallum.com/object_recognition/</guid>
-      <description>About In this project, I created an algorithm that attempted to identify whether an image was a hot dog or not.
-To build this algorithm, I first assembled a training set of 89 images of hot dogs. I then removed the background noise in each photo and re-oriented the hot dog so that it lay horizontal across the center of a 72x128 frame. I then vectorized each photo into a 9216x1x3 matrix (one column vector for each set of RGB value.</description>
+      <description>&lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;&#xA;&lt;p&gt;In this project, I created an algorithm that attempted to identify whether an image was a hot dog or not.&lt;/p&gt;&#xA;&lt;p&gt;To build this algorithm, I first assembled a training set of 89 images of hot dogs. I then removed the background noise in each photo and re-oriented the hot dog so that it lay horizontal across the center of a 72x128 frame. I then vectorized each photo into a 9216x1x3 matrix (one column vector for each set of RGB value. I then combined the vectorized images into a 9216x89x3 matrix.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Python Platformer Game</title>
       <link>https://chrisallum.com/game_development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://chrisallum.com/game_development/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Waypoint Navigation Rover</title>
       <link>https://chrisallum.com/rover/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://chrisallum.com/rover/</guid>
-      <description>Overview With a team of 5 other Olin students, I helped built a fully autonomous rover that was capable of driving around campus. The Rover was capable of driving from point to point while preforming obstacle avoidance. The Rover also had a manipulator on the front that was capable of picking up and dropping items.
-The rover navigated using a series of sensors. On the rover were two sonar sensors, five infrared distance sensors, a GPS module, and webcam capable of object recognition.</description>
+      <description>&lt;img src=&#34;https://chrisallum.com/rover/group.jpg&#34; width=&#34;800x&#34; &gt;&#xA;&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;&#xA;&lt;p&gt;With a team of 5 other Olin students, I helped built a fully autonomous rover that was capable of driving around campus. The Rover was capable of driving from point to point while preforming obstacle avoidance. The Rover also had a manipulator on the front that was capable of picking up and dropping items.&lt;/p&gt;&#xA;&lt;p&gt;The rover navigated using a series of sensors. On the rover were two sonar sensors, five infrared distance sensors, a GPS module, and webcam capable of object recognition. The rover was powered entirely off of a Raspberry Pi and was built using the chassis and motors of a 4WD R-C car.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Bio Inspired Hopper</title>
       <link>https://chrisallum.com/hopper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://chrisallum.com/hopper/</guid>
-      <description>For this project, I designed a &amp;ldquo;hopper&amp;rdquo; using a set of limited materials. The aim of this project was to learn more about design process, using CAD, and prototyping.
-This was the first drawing of my hopper. I really wanted to incorporate a four-bar linkage as the primary jumping mechanism. I was also inspired by a how a grasshopper shoots it&amp;rsquo;s leg out to jump. These sources of inspiration are what lead me to this design.</description>
+      <description>&lt;p&gt;For this project, I designed a &amp;ldquo;hopper&amp;rdquo; using a set of limited materials. The aim of this project was to learn more about design process, using CAD, and prototyping.&lt;/p&gt;&#xA;&lt;p&gt;This was the first drawing of my hopper. I really wanted to incorporate a four-bar linkage as the primary jumping mechanism. I was also inspired by a how a grasshopper shoots it&amp;rsquo;s leg out to jump. These sources of inspiration are what lead me to this design.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
